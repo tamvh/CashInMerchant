@@ -1066,3 +1066,621 @@ Caused by: org.apache.commons.configuration.ConfigurationException: Cannot locat
 2018-01-09 16:07:48  INFO ServiceDaemon:30 - Shutdown thread before webserver getinstance
 2018-01-09 16:07:48  INFO AbstractConnector:320 - Stopped ServerConnector@11784af6{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
 2018-01-09 16:07:48  INFO ContextHandler:932 - Stopped o.e.j.s.ServletContextHandler@aec23a8{/,null,UNAVAILABLE}
+2018-01-09 17:47:38  INFO log:192 - Logging initialized @1002ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-01-09 17:47:38  INFO WebServer:58 - Start server...
+2018-01-09 17:47:39  INFO Server:372 - jetty-9.4.1.v20170120
+2018-01-09 17:47:39  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@4ce3b08a{/,null,AVAILABLE}
+2018-01-09 17:47:39  INFO AbstractConnector:280 - Started ServerConnector@7bc8457{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2018-01-09 17:47:39  INFO Server:444 - Started @1518ms
+2018-01-09 17:48:35  INFO CashInController:51 - CashInController.processs, pathInfo:   /
+2018-01-09 17:48:35  INFO CashInController:52 - CashInController.processs, cmd:        transfercashtype
+2018-01-09 17:48:35  INFO CashInController:53 - CashInController.processs, data:       {"phone_number":"0935954858","amount":"10000","transfer_type": 3, "client_id":"vng"}
+2018-01-09 17:48:46  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 17:48:46  INFO local:839 - local: Created a new connection
+2018-01-09 17:48:46  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 17:48:46  INFO local:839 - local: Created a new connection
+2018-01-09 17:48:46  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 17:48:46  INFO local:839 - local: Created a new connection
+2018-01-09 17:48:46  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 17:48:46  INFO local:839 - local: Created a new connection
+2018-01-09 17:48:46  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 17:48:46  INFO local:839 - local: Created a new connection
+2018-01-09 17:48:46  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 17:48:46  INFO local:839 - local: Created a new connection
+2018-01-09 17:48:46  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 17:48:46  INFO local:839 - local: Created a new connection
+2018-01-09 17:48:46  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 17:48:46  INFO local:839 - local: Created a new connection
+2018-01-09 17:48:46  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 17:48:46  INFO local:839 - local: Created a new connection
+2018-01-09 17:48:46  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 17:48:46  INFO local:839 - local: Created a new connection
+2018-01-09 17:49:31  INFO log:192 - Logging initialized @541ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-01-09 17:49:32  INFO WebServer:58 - Start server...
+2018-01-09 17:49:32  INFO Server:372 - jetty-9.4.1.v20170120
+2018-01-09 17:49:32  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@3cee54a7{/,null,AVAILABLE}
+2018-01-09 17:49:32  INFO AbstractConnector:280 - Started ServerConnector@4f326d5b{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2018-01-09 17:49:32  INFO Server:444 - Started @959ms
+2018-01-09 17:49:33  INFO CashInController:51 - CashInController.processs, pathInfo:   /
+2018-01-09 17:49:33  INFO CashInController:52 - CashInController.processs, cmd:        transfercashtype
+2018-01-09 17:49:33  INFO CashInController:53 - CashInController.processs, data:       {"phone_number":"0935954858","amount":"10000","transfer_type": 3, "client_id":"vng"}
+2018-01-09 17:49:51  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 17:49:51  INFO local:839 - local: Created a new connection
+2018-01-09 17:50:09  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 17:50:09  INFO local:839 - local: Created a new connection
+2018-01-09 17:50:09  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 17:50:09  INFO local:839 - local: Created a new connection
+2018-01-09 17:50:09  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 17:50:09  INFO local:839 - local: Created a new connection
+2018-01-09 17:50:09  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 17:50:09  INFO local:839 - local: Created a new connection
+2018-01-09 17:50:09  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 17:50:09  INFO local:839 - local: Created a new connection
+2018-01-09 17:50:09  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 17:50:09  INFO local:839 - local: Created a new connection
+2018-01-09 17:50:09  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 17:50:09  INFO local:839 - local: Created a new connection
+2018-01-09 17:50:09  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 17:50:09  INFO local:839 - local: Created a new connection
+2018-01-09 17:50:09  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 17:50:09  INFO local:839 - local: Created a new connection
+2018-01-09 17:53:48  INFO log:192 - Logging initialized @490ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-01-09 17:53:48  INFO WebServer:58 - Start server...
+2018-01-09 17:53:48  INFO Server:372 - jetty-9.4.1.v20170120
+2018-01-09 17:53:48  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@202c8074{/,null,AVAILABLE}
+2018-01-09 17:53:48  INFO AbstractConnector:280 - Started ServerConnector@370d2ba5{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2018-01-09 17:53:48  INFO Server:444 - Started @880ms
+2018-01-09 17:53:51  INFO CashInController:51 - CashInController.processs, pathInfo:   /
+2018-01-09 17:53:51  INFO CashInController:52 - CashInController.processs, cmd:        transfercashtype
+2018-01-09 17:53:51  INFO CashInController:53 - CashInController.processs, data:       {"phone_number":"0935954858","amount":"10000","transfer_type": 3, "client_id":"vng"}
+2018-01-09 17:54:02  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 17:54:02  INFO local:839 - local: Created a new connection
+2018-01-09 17:54:07  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 17:54:07  INFO local:839 - local: Created a new connection
+2018-01-09 17:54:07  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 17:54:07  INFO local:839 - local: Created a new connection
+2018-01-09 17:54:07  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 17:54:07  INFO local:839 - local: Created a new connection
+2018-01-09 17:54:07  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 17:54:07  INFO local:839 - local: Created a new connection
+2018-01-09 17:54:07  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 17:54:07  INFO local:839 - local: Created a new connection
+2018-01-09 17:54:07  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 17:54:07  INFO local:839 - local: Created a new connection
+2018-01-09 17:54:07  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 17:54:07  INFO local:839 - local: Created a new connection
+2018-01-09 17:54:07  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 17:54:07  INFO local:839 - local: Created a new connection
+2018-01-09 17:54:07  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 17:54:07  INFO local:839 - local: Created a new connection
+2018-01-09 19:55:08  INFO log:192 - Logging initialized @424ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-01-09 19:55:08  INFO WebServer:58 - Start server...
+2018-01-09 19:55:08  INFO Server:372 - jetty-9.4.1.v20170120
+2018-01-09 19:55:08  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@6004f54e{/,null,AVAILABLE}
+2018-01-09 19:55:08  INFO AbstractConnector:280 - Started ServerConnector@27689cfd{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2018-01-09 19:55:08  INFO Server:444 - Started @723ms
+2018-01-09 19:55:24  INFO CashInController:53 - CashInController.processs, pathInfo:   /
+2018-01-09 19:55:24  INFO CashInController:54 - CashInController.processs, cmd:        transfercashtype
+2018-01-09 19:55:24  INFO CashInController:55 - CashInController.processs, data:       {"phone_number":"0935954858","amount":"10000","transfer_type": 3, "client_id":"vng"}
+2018-01-09 19:55:24  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 19:55:24  INFO local:839 - local: Created a new connection
+2018-01-09 19:55:24  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 19:55:24  INFO local:839 - local: Created a new connection
+2018-01-09 19:55:24  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 19:55:24  INFO local:839 - local: Created a new connection
+2018-01-09 19:55:24  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 19:55:24  INFO local:839 - local: Created a new connection
+2018-01-09 19:55:24  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 19:55:24  INFO local:839 - local: Created a new connection
+2018-01-09 19:55:24  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 19:55:24  INFO local:839 - local: Created a new connection
+2018-01-09 19:55:24  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 19:55:24  INFO local:839 - local: Created a new connection
+2018-01-09 19:55:24  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 19:55:24  INFO local:839 - local: Created a new connection
+2018-01-09 19:55:24  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 19:55:24  INFO local:839 - local: Created a new connection
+2018-01-09 19:55:24  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 19:55:24  INFO local:839 - local: Created a new connection
+2018-01-09 19:56:36  INFO ServiceDaemon:30 - Shutdown thread before webserver getinstance
+2018-01-09 19:56:36  INFO AbstractConnector:320 - Stopped ServerConnector@27689cfd{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2018-01-09 19:56:36  INFO ContextHandler:932 - Stopped o.e.j.s.ServletContextHandler@6004f54e{/,null,UNAVAILABLE}
+2018-01-09 19:57:36  INFO log:192 - Logging initialized @518ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-01-09 19:57:36  INFO WebServer:58 - Start server...
+2018-01-09 19:57:36  INFO Server:372 - jetty-9.4.1.v20170120
+2018-01-09 19:57:36  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@698dba37{/,null,AVAILABLE}
+2018-01-09 19:57:36  INFO AbstractConnector:280 - Started ServerConnector@40afb76e{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2018-01-09 19:57:36  INFO Server:444 - Started @826ms
+2018-01-09 19:57:44  INFO CashInController:53 - CashInController.processs, pathInfo:   /
+2018-01-09 19:57:44  INFO CashInController:54 - CashInController.processs, cmd:        transfercashtype
+2018-01-09 19:57:44  INFO CashInController:55 - CashInController.processs, data:       {"phone_number":"0935954858","amount":"10000","transfer_type": 3, "client_id":"vng"}
+2018-01-09 19:57:57  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 19:57:58  INFO local:839 - local: Created a new connection
+2018-01-09 19:57:58  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 19:57:58  INFO local:839 - local: Created a new connection
+2018-01-09 19:57:58  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 19:57:58  INFO local:839 - local: Created a new connection
+2018-01-09 19:57:58  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 19:57:58  INFO local:839 - local: Created a new connection
+2018-01-09 19:57:58  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 19:57:58  INFO local:839 - local: Created a new connection
+2018-01-09 19:57:58  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 19:57:58  INFO local:839 - local: Created a new connection
+2018-01-09 19:57:58  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 19:57:58  INFO local:839 - local: Created a new connection
+2018-01-09 19:57:58  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 19:57:58  INFO local:839 - local: Created a new connection
+2018-01-09 19:57:58  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 19:57:58  INFO local:839 - local: Created a new connection
+2018-01-09 19:57:58  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 19:57:58  INFO local:839 - local: Created a new connection
+2018-01-09 20:02:26  INFO log:192 - Logging initialized @581ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-01-09 20:02:26  INFO WebServer:58 - Start server...
+2018-01-09 20:02:27  INFO Server:372 - jetty-9.4.1.v20170120
+2018-01-09 20:02:27  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@4deddd91{/,null,AVAILABLE}
+2018-01-09 20:02:27  INFO AbstractConnector:280 - Started ServerConnector@152e3c92{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2018-01-09 20:02:27  INFO Server:444 - Started @1029ms
+2018-01-09 20:02:31  INFO CashInController:53 - CashInController.processs, pathInfo:   /
+2018-01-09 20:02:31  INFO CashInController:54 - CashInController.processs, cmd:        transfercashtype
+2018-01-09 20:02:31  INFO CashInController:55 - CashInController.processs, data:       {"phone_number":"0935954858","amount":"10000","transfer_type": 3, "client_id":"vng"}
+2018-01-09 20:02:36  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:02:36  INFO local:839 - local: Created a new connection
+2018-01-09 20:02:36  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:02:36  INFO local:839 - local: Created a new connection
+2018-01-09 20:02:36  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:02:36  INFO local:839 - local: Created a new connection
+2018-01-09 20:02:36  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:02:36  INFO local:839 - local: Created a new connection
+2018-01-09 20:02:36  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:02:36  INFO local:839 - local: Created a new connection
+2018-01-09 20:02:36  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:02:36  INFO local:839 - local: Created a new connection
+2018-01-09 20:02:36  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:02:36  INFO local:839 - local: Created a new connection
+2018-01-09 20:02:36  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:02:36  INFO local:839 - local: Created a new connection
+2018-01-09 20:02:36  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:02:36  INFO local:839 - local: Created a new connection
+2018-01-09 20:02:36  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:02:36  INFO local:839 - local: Created a new connection
+2018-01-09 20:04:35  INFO log:192 - Logging initialized @430ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-01-09 20:04:35  INFO WebServer:58 - Start server...
+2018-01-09 20:04:35  INFO Server:372 - jetty-9.4.1.v20170120
+2018-01-09 20:04:36  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@4a33eeae{/,null,AVAILABLE}
+2018-01-09 20:04:36  INFO AbstractConnector:280 - Started ServerConnector@304c8544{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2018-01-09 20:04:36  INFO Server:444 - Started @765ms
+2018-01-09 20:04:43  INFO CashInController:53 - CashInController.processs, pathInfo:   /
+2018-01-09 20:04:43  INFO CashInController:54 - CashInController.processs, cmd:        transfercashtype
+2018-01-09 20:04:43  INFO CashInController:55 - CashInController.processs, data:       {"phone_number":"0935954858","amount":"10000","transfer_type": 3, "client_id":"vng"}
+2018-01-09 20:04:55  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:04:56  INFO local:839 - local: Created a new connection
+2018-01-09 20:04:56  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:04:56  INFO local:839 - local: Created a new connection
+2018-01-09 20:04:56  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:04:56  INFO local:839 - local: Created a new connection
+2018-01-09 20:04:56  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:04:56  INFO local:839 - local: Created a new connection
+2018-01-09 20:04:56  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:04:56  INFO local:839 - local: Created a new connection
+2018-01-09 20:04:56  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:04:56  INFO local:839 - local: Created a new connection
+2018-01-09 20:04:56  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:04:56  INFO local:839 - local: Created a new connection
+2018-01-09 20:04:56  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:04:56  INFO local:839 - local: Created a new connection
+2018-01-09 20:04:56  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:04:56  INFO local:839 - local: Created a new connection
+2018-01-09 20:04:56  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:04:56  INFO local:839 - local: Created a new connection
+2018-01-09 20:21:35  INFO log:192 - Logging initialized @608ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-01-09 20:21:35  INFO WebServer:58 - Start server...
+2018-01-09 20:21:35  INFO Server:372 - jetty-9.4.1.v20170120
+2018-01-09 20:21:35  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@7d13cfb3{/,null,AVAILABLE}
+2018-01-09 20:21:35  INFO AbstractConnector:280 - Started ServerConnector@17f73e1d{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2018-01-09 20:21:35  INFO Server:444 - Started @897ms
+2018-01-09 20:22:48  INFO CashInController:53 - CashInController.processs, pathInfo:   /
+2018-01-09 20:22:48  INFO CashInController:54 - CashInController.processs, cmd:        transfercashtype
+2018-01-09 20:22:48  INFO CashInController:55 - CashInController.processs, data:       {"phone_number":"0935954858","amount":"10000","transfer_type": 3, "client_id":"vng"}
+2018-01-09 20:22:53  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:22:53  INFO local:839 - local: Created a new connection
+2018-01-09 20:22:53  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:22:53  INFO local:839 - local: Created a new connection
+2018-01-09 20:22:53  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:22:53  INFO local:839 - local: Created a new connection
+2018-01-09 20:22:53  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:22:53  INFO local:839 - local: Created a new connection
+2018-01-09 20:22:53  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:22:53  INFO local:839 - local: Created a new connection
+2018-01-09 20:22:53  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:22:53  INFO local:839 - local: Created a new connection
+2018-01-09 20:22:53  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:22:53  INFO local:839 - local: Created a new connection
+2018-01-09 20:22:53  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:22:53  INFO local:839 - local: Created a new connection
+2018-01-09 20:22:53  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:22:53  INFO local:839 - local: Created a new connection
+2018-01-09 20:22:53  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:22:53  INFO local:839 - local: Created a new connection
+2018-01-09 20:24:20  INFO log:192 - Logging initialized @338ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-01-09 20:24:20  INFO WebServer:58 - Start server...
+2018-01-09 20:24:20  INFO Server:372 - jetty-9.4.1.v20170120
+2018-01-09 20:24:20  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@2f4f7d06{/,null,AVAILABLE}
+2018-01-09 20:24:20  INFO AbstractConnector:280 - Started ServerConnector@7a31be81{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2018-01-09 20:24:20  INFO Server:444 - Started @585ms
+2018-01-09 20:24:23  INFO CashInController:53 - CashInController.processs, pathInfo:   /
+2018-01-09 20:24:23  INFO CashInController:54 - CashInController.processs, cmd:        transfercashtype
+2018-01-09 20:24:23  INFO CashInController:55 - CashInController.processs, data:       {"phone_number":"0935954858","amount":"10000","transfer_type": 3, "client_id":"vng"}
+2018-01-09 20:24:23  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:24:23  INFO local:839 - local: Created a new connection
+2018-01-09 20:24:23  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:24:23  INFO local:839 - local: Created a new connection
+2018-01-09 20:24:23  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:24:23  INFO local:839 - local: Created a new connection
+2018-01-09 20:24:23  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:24:23  INFO local:839 - local: Created a new connection
+2018-01-09 20:24:23  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:24:23  INFO local:839 - local: Created a new connection
+2018-01-09 20:24:23  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:24:23  INFO local:839 - local: Created a new connection
+2018-01-09 20:24:23  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:24:24  INFO local:839 - local: Created a new connection
+2018-01-09 20:24:24  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:24:24  INFO local:839 - local: Created a new connection
+2018-01-09 20:24:24  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:24:24  INFO local:839 - local: Created a new connection
+2018-01-09 20:24:24  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:24:24  INFO local:839 - local: Created a new connection
+2018-01-09 20:24:24  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:24:24  INFO local:839 - local: Created a new connection
+2018-01-09 20:24:31  INFO CashInController:53 - CashInController.processs, pathInfo:   /
+2018-01-09 20:24:31  INFO CashInController:54 - CashInController.processs, cmd:        transfercashtype
+2018-01-09 20:24:31  INFO CashInController:55 - CashInController.processs, data:       {"phone_number":"0935954858","amount":"10000","transfer_type": 3, "client_id":"vng"}
+2018-01-09 20:27:24  INFO local:839 - local: Destroyed connection
+2018-01-09 20:27:24  INFO local:839 - local: Destroyed connection
+2018-01-09 20:27:24  INFO local:839 - local: Destroyed connection
+2018-01-09 20:27:24  INFO local:839 - local: Destroyed connection
+2018-01-09 20:27:24  INFO local:839 - local: Destroyed connection
+2018-01-09 20:27:24  INFO local:839 - local: Destroyed connection
+2018-01-09 20:27:24  INFO local:839 - local: Destroyed connection
+2018-01-09 20:27:24  INFO local:839 - local: Destroyed connection
+2018-01-09 20:27:28  INFO log:192 - Logging initialized @459ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-01-09 20:27:28  INFO WebServer:58 - Start server...
+2018-01-09 20:27:29  INFO local:839 - local: Destroyed connection
+2018-01-09 20:27:29  INFO local:839 - local: Destroyed connection
+2018-01-09 20:27:29  INFO Server:372 - jetty-9.4.1.v20170120
+2018-01-09 20:27:29  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@698dba37{/,null,AVAILABLE}
+2018-01-09 20:27:29 ERROR WebServer:71 - Cannot start web server: Address already in use
+2018-01-09 20:27:29  INFO ServiceDaemon:30 - Shutdown thread before webserver getinstance
+2018-01-09 20:27:29  INFO AbstractConnector:320 - Stopped ServerConnector@45345a96{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2018-01-09 20:27:29  INFO ContextHandler:932 - Stopped o.e.j.s.ServletContextHandler@698dba37{/,null,UNAVAILABLE}
+2018-01-09 20:27:34  INFO local:839 - local: Destroyed connection
+2018-01-09 20:27:52  INFO CashInController:53 - CashInController.processs, pathInfo:   /
+2018-01-09 20:27:52  INFO CashInController:54 - CashInController.processs, cmd:        transfercashtype
+2018-01-09 20:27:52  INFO CashInController:55 - CashInController.processs, data:       {"phone_number":"0935954858","amount":"10000","transfer_type": 3, "client_id":"vng"}
+2018-01-09 20:27:52  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:27:52  INFO local:839 - local: Created a new connection
+2018-01-09 20:28:02  INFO ServiceDaemon:30 - Shutdown thread before webserver getinstance
+2018-01-09 20:28:02  INFO AbstractConnector:320 - Stopped ServerConnector@7a31be81{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2018-01-09 20:28:02  INFO ContextHandler:932 - Stopped o.e.j.s.ServletContextHandler@2f4f7d06{/,null,UNAVAILABLE}
+2018-01-09 20:29:01  INFO log:192 - Logging initialized @624ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-01-09 20:29:01  INFO WebServer:58 - Start server...
+2018-01-09 20:29:01  INFO Server:372 - jetty-9.4.1.v20170120
+2018-01-09 20:29:01  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@fbd153e{/,null,AVAILABLE}
+2018-01-09 20:29:01  INFO AbstractConnector:280 - Started ServerConnector@29c085b2{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2018-01-09 20:29:01  INFO Server:444 - Started @1027ms
+2018-01-09 20:29:08  INFO CashInController:53 - CashInController.processs, pathInfo:   /
+2018-01-09 20:29:08  INFO CashInController:54 - CashInController.processs, cmd:        transfercashtype
+2018-01-09 20:29:08  INFO CashInController:55 - CashInController.processs, data:       {"phone_number":"0935954858","amount":"10000","transfer_type": 3, "client_id":"vng"}
+2018-01-09 20:29:11  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:29:12  INFO local:839 - local: Created a new connection
+2018-01-09 20:29:12  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:29:12  INFO local:839 - local: Created a new connection
+2018-01-09 20:29:12  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:29:12  INFO local:839 - local: Created a new connection
+2018-01-09 20:29:12  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:29:12  INFO local:839 - local: Created a new connection
+2018-01-09 20:29:12  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:29:12  INFO local:839 - local: Created a new connection
+2018-01-09 20:29:12  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:29:12  INFO local:839 - local: Created a new connection
+2018-01-09 20:29:12  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:29:12  INFO local:839 - local: Created a new connection
+2018-01-09 20:29:12  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:29:12  INFO local:839 - local: Created a new connection
+2018-01-09 20:29:12  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:29:12  INFO local:839 - local: Created a new connection
+2018-01-09 20:29:12  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:29:12  INFO local:839 - local: Created a new connection
+2018-01-09 20:30:02  INFO log:192 - Logging initialized @295ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-01-09 20:30:02  INFO WebServer:58 - Start server...
+2018-01-09 20:30:03  INFO Server:372 - jetty-9.4.1.v20170120
+2018-01-09 20:30:03  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@aec23a8{/,null,AVAILABLE}
+2018-01-09 20:30:03  INFO AbstractConnector:280 - Started ServerConnector@428bb55f{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2018-01-09 20:30:03  INFO Server:444 - Started @499ms
+2018-01-09 20:30:04  INFO CashInController:53 - CashInController.processs, pathInfo:   /
+2018-01-09 20:30:04  INFO CashInController:54 - CashInController.processs, cmd:        transfercashtype
+2018-01-09 20:30:04  INFO CashInController:55 - CashInController.processs, data:       {"phone_number":"0935954858","amount":"10000","transfer_type": 3, "client_id":"vng"}
+2018-01-09 20:30:04  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:30:04  INFO local:839 - local: Created a new connection
+2018-01-09 20:30:04  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:30:04  INFO local:839 - local: Created a new connection
+2018-01-09 20:30:04  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:30:04  INFO local:839 - local: Created a new connection
+2018-01-09 20:30:04  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:30:04  INFO local:839 - local: Created a new connection
+2018-01-09 20:30:04  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:30:04  INFO local:839 - local: Created a new connection
+2018-01-09 20:30:04  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:30:04  INFO local:839 - local: Created a new connection
+2018-01-09 20:30:04  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:30:04  INFO local:839 - local: Created a new connection
+2018-01-09 20:30:04  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:30:04  INFO local:839 - local: Created a new connection
+2018-01-09 20:30:04  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:30:04  INFO local:839 - local: Created a new connection
+2018-01-09 20:30:04  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:30:04  INFO local:839 - local: Created a new connection
+2018-01-09 20:30:04  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:30:04  INFO local:839 - local: Created a new connection
+2018-01-09 20:30:27  INFO CashInController:53 - CashInController.processs, pathInfo:   /
+2018-01-09 20:30:27  INFO CashInController:54 - CashInController.processs, cmd:        transfercashtype
+2018-01-09 20:30:27  INFO CashInController:55 - CashInController.processs, data:       {"phone_number":"0935954858","amount":"10000","transfer_type": 3, "client_id":"vng"}
+2018-01-09 20:31:17  INFO ServiceDaemon:30 - Shutdown thread before webserver getinstance
+2018-01-09 20:31:17  INFO AbstractConnector:320 - Stopped ServerConnector@428bb55f{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2018-01-09 20:31:17  INFO ContextHandler:932 - Stopped o.e.j.s.ServletContextHandler@aec23a8{/,null,UNAVAILABLE}
+2018-01-09 20:31:21  INFO log:192 - Logging initialized @490ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-01-09 20:31:21  INFO WebServer:58 - Start server...
+2018-01-09 20:31:21  INFO Server:372 - jetty-9.4.1.v20170120
+2018-01-09 20:31:21  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@2994d17f{/,null,AVAILABLE}
+2018-01-09 20:31:21  INFO AbstractConnector:280 - Started ServerConnector@34023cae{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2018-01-09 20:31:21  INFO Server:444 - Started @834ms
+2018-01-09 20:32:29  INFO log:192 - Logging initialized @454ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-01-09 20:32:29  INFO WebServer:58 - Start server...
+2018-01-09 20:32:29  INFO Server:372 - jetty-9.4.1.v20170120
+2018-01-09 20:32:29  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@452958c2{/,null,AVAILABLE}
+2018-01-09 20:32:29  INFO AbstractConnector:280 - Started ServerConnector@16acfb29{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2018-01-09 20:32:29  INFO Server:444 - Started @733ms
+2018-01-09 20:32:32  INFO CashInController:53 - CashInController.processs, pathInfo:   /
+2018-01-09 20:32:32  INFO CashInController:54 - CashInController.processs, cmd:        transfercashtype
+2018-01-09 20:32:32  INFO CashInController:55 - CashInController.processs, data:       {"phone_number":"0935954858","amount":"10000","transfer_type": 3, "client_id":"vng"}
+2018-01-09 20:32:32  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:32:33  INFO local:839 - local: Created a new connection
+2018-01-09 20:32:33  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:32:33  INFO local:839 - local: Created a new connection
+2018-01-09 20:32:33  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:32:33  INFO local:839 - local: Created a new connection
+2018-01-09 20:32:33  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:32:33  INFO local:839 - local: Created a new connection
+2018-01-09 20:32:33  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:32:33  INFO local:839 - local: Created a new connection
+2018-01-09 20:32:33  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:32:33  INFO local:839 - local: Created a new connection
+2018-01-09 20:32:33  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:32:33  INFO local:839 - local: Created a new connection
+2018-01-09 20:32:33  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:32:33  INFO local:839 - local: Created a new connection
+2018-01-09 20:32:33  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:32:33  INFO local:839 - local: Created a new connection
+2018-01-09 20:32:33  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:32:33  INFO local:839 - local: Created a new connection
+2018-01-09 20:32:33  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:32:33  INFO local:839 - local: Created a new connection
+2018-01-09 20:32:46  INFO CashInController:53 - CashInController.processs, pathInfo:   /
+2018-01-09 20:32:46  INFO CashInController:54 - CashInController.processs, cmd:        transfercashtype
+2018-01-09 20:32:46  INFO CashInController:55 - CashInController.processs, data:       {"phone_number":"0935954858","amount":"10000","transfer_type": 3, "client_id":"vng"}
+2018-01-09 20:33:39  INFO ServiceDaemon:30 - Shutdown thread before webserver getinstance
+2018-01-09 20:33:39  INFO AbstractConnector:320 - Stopped ServerConnector@16acfb29{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2018-01-09 20:33:39  INFO ContextHandler:932 - Stopped o.e.j.s.ServletContextHandler@452958c2{/,null,UNAVAILABLE}
+2018-01-09 20:33:47  INFO log:192 - Logging initialized @676ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-01-09 20:33:47  INFO WebServer:58 - Start server...
+2018-01-09 20:33:47  INFO Server:372 - jetty-9.4.1.v20170120
+2018-01-09 20:33:47  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@698dba37{/,null,AVAILABLE}
+2018-01-09 20:33:47  INFO AbstractConnector:280 - Started ServerConnector@40afb76e{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2018-01-09 20:33:47  INFO Server:444 - Started @1277ms
+2018-01-09 20:33:53  INFO CashInController:53 - CashInController.processs, pathInfo:   /
+2018-01-09 20:33:53  INFO CashInController:54 - CashInController.processs, cmd:        transfercashtype
+2018-01-09 20:33:53  INFO CashInController:55 - CashInController.processs, data:       {"phone_number":"0935954858","amount":"10000","transfer_type": 3, "client_id":"vng"}
+2018-01-09 20:34:15  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:34:15  INFO local:839 - local: Created a new connection
+2018-01-09 20:34:34  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:34:34  INFO local:839 - local: Created a new connection
+2018-01-09 20:34:34  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:34:34  INFO local:839 - local: Created a new connection
+2018-01-09 20:34:34  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:34:34  INFO local:839 - local: Created a new connection
+2018-01-09 20:34:34  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:34:34  INFO local:839 - local: Created a new connection
+2018-01-09 20:34:34  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:34:34  INFO local:839 - local: Created a new connection
+2018-01-09 20:34:34  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:34:34  INFO local:839 - local: Created a new connection
+2018-01-09 20:34:34  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:34:34  INFO local:839 - local: Created a new connection
+2018-01-09 20:34:34  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:34:34  INFO local:839 - local: Created a new connection
+2018-01-09 20:34:34  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:34:34  INFO local:839 - local: Created a new connection
+2018-01-09 20:36:56  INFO log:192 - Logging initialized @459ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-01-09 20:36:56  INFO WebServer:58 - Start server...
+2018-01-09 20:36:56  INFO Server:372 - jetty-9.4.1.v20170120
+2018-01-09 20:36:57  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@6004f54e{/,null,AVAILABLE}
+2018-01-09 20:36:57  INFO AbstractConnector:280 - Started ServerConnector@27689cfd{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2018-01-09 20:36:57  INFO Server:444 - Started @767ms
+2018-01-09 20:37:00  INFO CashInController:53 - CashInController.processs, pathInfo:   /
+2018-01-09 20:37:00  INFO CashInController:54 - CashInController.processs, cmd:        transfercashtype
+2018-01-09 20:37:00  INFO CashInController:55 - CashInController.processs, data:       {"phone_number":"0935954858","amount":"10000","transfer_type": 3, "client_id":"vng"}
+2018-01-09 20:37:00  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:37:00  INFO local:839 - local: Created a new connection
+2018-01-09 20:37:00  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:37:00  INFO local:839 - local: Created a new connection
+2018-01-09 20:37:00  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:37:00  INFO local:839 - local: Created a new connection
+2018-01-09 20:37:00  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:37:00  INFO local:839 - local: Created a new connection
+2018-01-09 20:37:00  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:37:00  INFO local:839 - local: Created a new connection
+2018-01-09 20:37:00  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:37:00  INFO local:839 - local: Created a new connection
+2018-01-09 20:37:00  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:37:00  INFO local:839 - local: Created a new connection
+2018-01-09 20:37:00  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:37:00  INFO local:839 - local: Created a new connection
+2018-01-09 20:37:00  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:37:00  INFO local:839 - local: Created a new connection
+2018-01-09 20:37:00  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:37:00  INFO local:839 - local: Created a new connection
+2018-01-09 20:37:00  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:37:00  INFO local:839 - local: Created a new connection
+2018-01-09 20:37:45  INFO CashInController:53 - CashInController.processs, pathInfo:   /
+2018-01-09 20:37:45  INFO CashInController:54 - CashInController.processs, cmd:        transfercashtype
+2018-01-09 20:37:45  INFO CashInController:55 - CashInController.processs, data:       {"phone_number":"0935954858","amount":"10000","transfer_type": 3, "client_id":"vng"}
+2018-01-09 20:38:10  INFO ServiceDaemon:30 - Shutdown thread before webserver getinstance
+2018-01-09 20:38:10  INFO AbstractConnector:320 - Stopped ServerConnector@27689cfd{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2018-01-09 20:38:10  INFO ContextHandler:932 - Stopped o.e.j.s.ServletContextHandler@6004f54e{/,null,UNAVAILABLE}
+2018-01-09 20:43:52  INFO log:192 - Logging initialized @340ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-01-09 20:43:52  INFO WebServer:58 - Start server...
+2018-01-09 20:43:53  INFO Server:372 - jetty-9.4.1.v20170120
+2018-01-09 20:43:53  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@aec23a8{/,null,AVAILABLE}
+2018-01-09 20:43:53  INFO AbstractConnector:280 - Started ServerConnector@428bb55f{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2018-01-09 20:43:53  INFO Server:444 - Started @581ms
+2018-01-09 20:43:58  INFO CashInController:53 - CashInController.processs, pathInfo:   /
+2018-01-09 20:43:58  INFO CashInController:54 - CashInController.processs, cmd:        transfercashtype
+2018-01-09 20:43:58  INFO CashInController:55 - CashInController.processs, data:       {"phone_number":"0935954858","amount":"10000","transfer_type": 3, "client_id":"vng"}
+2018-01-09 20:43:58  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:43:58  INFO local:839 - local: Created a new connection
+2018-01-09 20:43:58  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:43:58  INFO local:839 - local: Created a new connection
+2018-01-09 20:43:58  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:43:58  INFO local:839 - local: Created a new connection
+2018-01-09 20:43:58  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:43:58  INFO local:839 - local: Created a new connection
+2018-01-09 20:43:58  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:43:58  INFO local:839 - local: Created a new connection
+2018-01-09 20:43:58  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:43:58  INFO local:839 - local: Created a new connection
+2018-01-09 20:43:58  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:43:58  INFO local:839 - local: Created a new connection
+2018-01-09 20:43:58  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:43:58  INFO local:839 - local: Created a new connection
+2018-01-09 20:43:58  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:43:58  INFO local:839 - local: Created a new connection
+2018-01-09 20:43:58  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:43:58  INFO local:839 - local: Created a new connection
+2018-01-09 20:43:58  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:43:58  INFO local:839 - local: Created a new connection
+2018-01-09 20:46:07  INFO CashInController:53 - CashInController.processs, pathInfo:   /
+2018-01-09 20:46:07  INFO CashInController:54 - CashInController.processs, cmd:        transfercashtype
+2018-01-09 20:46:07  INFO CashInController:55 - CashInController.processs, data:       {"phone_number":"0935954858","amount":"10000","transfer_type": 3, "client_id":"vng"}
+2018-01-09 20:46:19  INFO CashInController:53 - CashInController.processs, pathInfo:   /
+2018-01-09 20:46:19  INFO CashInController:54 - CashInController.processs, cmd:        transfercashtype
+2018-01-09 20:46:19  INFO CashInController:55 - CashInController.processs, data:       {"phone_number":"0935954858","amount":"10000","transfer_type": 3, "client_id":"vng"}
+2018-01-09 20:46:29  INFO CashInController:53 - CashInController.processs, pathInfo:   /
+2018-01-09 20:46:29  INFO CashInController:54 - CashInController.processs, cmd:        transfercashtype
+2018-01-09 20:46:29  INFO CashInController:55 - CashInController.processs, data:       {"phone_number":"0935954858","amount":"10000","transfer_type": 3, "client_id":"vng"}
+2018-01-09 20:46:58  INFO local:839 - local: Destroyed connection
+2018-01-09 20:46:58  INFO local:839 - local: Destroyed connection
+2018-01-09 20:46:58  INFO local:839 - local: Destroyed connection
+2018-01-09 20:46:58  INFO local:839 - local: Destroyed connection
+2018-01-09 20:46:58  INFO local:839 - local: Destroyed connection
+2018-01-09 20:46:58  INFO local:839 - local: Destroyed connection
+2018-01-09 20:46:58  INFO local:839 - local: Destroyed connection
+2018-01-09 20:46:58  INFO local:839 - local: Destroyed connection
+2018-01-09 20:46:58  INFO local:839 - local: Destroyed connection
+2018-01-09 20:46:58  INFO local:839 - local: Destroyed connection
+2018-01-09 20:47:14  INFO CashInController:53 - CashInController.processs, pathInfo:   /
+2018-01-09 20:47:14  INFO CashInController:54 - CashInController.processs, cmd:        transfercashtype
+2018-01-09 20:47:14  INFO CashInController:55 - CashInController.processs, data:       {"phone_number":"0935954858","amount":"10000","transfer_type": 3, "client_id":"vng"}
+2018-01-09 20:47:19  INFO CashInController:53 - CashInController.processs, pathInfo:   /
+2018-01-09 20:47:19  INFO CashInController:54 - CashInController.processs, cmd:        transfercashtype
+2018-01-09 20:47:19  INFO CashInController:55 - CashInController.processs, data:       {"phone_number":"0935954858","amount":"10000","transfer_type": 3, "client_id":"vng"}
+2018-01-09 20:47:23  INFO CashInController:53 - CashInController.processs, pathInfo:   /
+2018-01-09 20:47:23  INFO CashInController:54 - CashInController.processs, cmd:        transfercashtype
+2018-01-09 20:47:23  INFO CashInController:55 - CashInController.processs, data:       {"phone_number":"0935954858","amount":"10000","transfer_type": 3, "client_id":"vng"}
+2018-01-09 20:50:23  INFO local:839 - local: Destroyed connection
+2018-01-09 20:53:21  INFO ServiceDaemon:30 - Shutdown thread before webserver getinstance
+2018-01-09 20:53:21  INFO AbstractConnector:320 - Stopped ServerConnector@428bb55f{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2018-01-09 20:53:21  INFO ContextHandler:932 - Stopped o.e.j.s.ServletContextHandler@aec23a8{/,null,UNAVAILABLE}
+2018-01-09 20:53:25  INFO log:192 - Logging initialized @370ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-01-09 20:53:25  INFO WebServer:58 - Start server...
+2018-01-09 20:53:25  INFO Server:372 - jetty-9.4.1.v20170120
+2018-01-09 20:53:25  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@452958c2{/,null,AVAILABLE}
+2018-01-09 20:53:25  INFO AbstractConnector:280 - Started ServerConnector@16acfb29{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2018-01-09 20:53:25  INFO Server:444 - Started @626ms
+2018-01-09 20:53:46  INFO CashInController:53 - CashInController.processs, pathInfo:   /
+2018-01-09 20:53:46  INFO CashInController:54 - CashInController.processs, cmd:        transfercash
+2018-01-09 20:53:46  INFO CashInController:55 - CashInController.processs, data:       {"zpid":"tamvh","amount":"11111","transfer_type": 1, "client_id":"vng"}
+2018-01-09 20:53:46  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:53:46  INFO local:839 - local: Created a new connection
+2018-01-09 20:53:46  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:53:46  INFO local:839 - local: Created a new connection
+2018-01-09 20:53:46  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:53:46  INFO local:839 - local: Created a new connection
+2018-01-09 20:53:46  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:53:46  INFO local:839 - local: Created a new connection
+2018-01-09 20:53:46  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:53:46  INFO local:839 - local: Created a new connection
+2018-01-09 20:53:46  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:53:46  INFO local:839 - local: Created a new connection
+2018-01-09 20:53:46  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:53:46  INFO local:839 - local: Created a new connection
+2018-01-09 20:53:46  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:53:46  INFO local:839 - local: Created a new connection
+2018-01-09 20:53:46  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:53:46  INFO local:839 - local: Created a new connection
+2018-01-09 20:53:46  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:53:46  INFO local:839 - local: Created a new connection
+2018-01-09 20:53:46  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:53:46  INFO local:839 - local: Created a new connection
+2018-01-09 20:54:07  INFO CashInController:53 - CashInController.processs, pathInfo:   /
+2018-01-09 20:54:07  INFO CashInController:54 - CashInController.processs, cmd:        transfercashtype
+2018-01-09 20:54:07  INFO CashInController:55 - CashInController.processs, data:       {"phone_number":"0935954858","amount":"10000","transfer_type": 3, "client_id":"vng"}
+2018-01-09 20:54:17  INFO CashInController:53 - CashInController.processs, pathInfo:   /
+2018-01-09 20:54:17  INFO CashInController:54 - CashInController.processs, cmd:        transfercashtype
+2018-01-09 20:54:17  INFO CashInController:55 - CashInController.processs, data:       {"phone_number":"0935954858","amount":"10000","transfer_type": 3, "client_id":"vng"}
+2018-01-09 20:56:46  INFO local:839 - local: Destroyed connection
+2018-01-09 20:56:46  INFO local:839 - local: Destroyed connection
+2018-01-09 20:56:46  INFO local:839 - local: Destroyed connection
+2018-01-09 20:56:46  INFO local:839 - local: Destroyed connection
+2018-01-09 20:56:46  INFO local:839 - local: Destroyed connection
+2018-01-09 20:56:46  INFO local:839 - local: Destroyed connection
+2018-01-09 20:56:46  INFO local:839 - local: Destroyed connection
+2018-01-09 20:56:46  INFO local:839 - local: Destroyed connection
+2018-01-09 20:56:46  INFO local:839 - local: Destroyed connection
+2018-01-09 20:56:46  INFO local:839 - local: Destroyed connection
+2018-01-09 20:57:21  INFO local:839 - local: Destroyed connection
+2018-01-09 20:58:54  INFO CashInController:53 - CashInController.processs, pathInfo:   /
+2018-01-09 20:58:54  INFO CashInController:54 - CashInController.processs, cmd:        transfercashtype
+2018-01-09 20:58:54  INFO CashInController:55 - CashInController.processs, data:       {"phone_number":"0935954858","amount":"10000","transfer_type": 3, "client_id":"vng"}
+2018-01-09 20:58:54  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/cashinmerchant?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2018-01-09 20:58:54  INFO local:839 - local: Created a new connection
+2018-01-09 20:59:05  INFO CashInController:53 - CashInController.processs, pathInfo:   /
+2018-01-09 20:59:05  INFO CashInController:54 - CashInController.processs, cmd:        transfercash
+2018-01-09 20:59:05  INFO CashInController:55 - CashInController.processs, data:       {"zpid":"tamvh","amount":"11111","transfer_type": 1, "client_id":"vng"}
+2018-01-09 20:59:32  INFO CashInController:53 - CashInController.processs, pathInfo:   /
+2018-01-09 20:59:32  INFO CashInController:54 - CashInController.processs, cmd:        transfercash
+2018-01-09 20:59:32  INFO CashInController:55 - CashInController.processs, data:       {"zpid":"tamvh","amount":"11111","transfer_type": 1, "client_id":"vng"}
+2018-01-09 20:59:39  INFO CashInController:53 - CashInController.processs, pathInfo:   /
+2018-01-09 20:59:39  INFO CashInController:54 - CashInController.processs, cmd:        transfercashtype
+2018-01-09 20:59:39  INFO CashInController:55 - CashInController.processs, data:       {"phone_number":"0935954858","amount":"10000","transfer_type": 3, "client_id":"vng"}
+2018-01-09 20:59:44  INFO CashInController:53 - CashInController.processs, pathInfo:   /
+2018-01-09 20:59:44  INFO CashInController:54 - CashInController.processs, cmd:        transfercash
+2018-01-09 20:59:44  INFO CashInController:55 - CashInController.processs, data:       {"zpid":"tamvh","amount":"11111","transfer_type": 1, "client_id":"vng"}
+2018-01-09 20:59:49  INFO CashInController:53 - CashInController.processs, pathInfo:   /
+2018-01-09 20:59:49  INFO CashInController:54 - CashInController.processs, cmd:        transfercashtype
+2018-01-09 20:59:49  INFO CashInController:55 - CashInController.processs, data:       {"phone_number":"0935954858","amount":"10000","transfer_type": 3, "client_id":"vng"}
+2018-01-09 20:59:56  INFO CashInController:53 - CashInController.processs, pathInfo:   /
+2018-01-09 20:59:56  INFO CashInController:54 - CashInController.processs, cmd:        transfercash
+2018-01-09 20:59:56  INFO CashInController:55 - CashInController.processs, data:       {"zpid":"tamvh","amount":"11111","transfer_type": 1, "client_id":"vng"}
+2018-01-09 21:00:00  INFO CashInController:53 - CashInController.processs, pathInfo:   /
+2018-01-09 21:00:00  INFO CashInController:54 - CashInController.processs, cmd:        transfercash
+2018-01-09 21:00:00  INFO CashInController:55 - CashInController.processs, data:       {"zpid":"tamvh","amount":"11111","transfer_type": 1, "client_id":"vng"}
+2018-01-09 21:00:04  INFO CashInController:53 - CashInController.processs, pathInfo:   /
+2018-01-09 21:00:04  INFO CashInController:54 - CashInController.processs, cmd:        transfercash
+2018-01-09 21:00:04  INFO CashInController:55 - CashInController.processs, data:       {"zpid":"tamvh","amount":"11111","transfer_type": 1, "client_id":"vng"}
+2018-01-09 21:00:09  INFO CashInController:53 - CashInController.processs, pathInfo:   /
+2018-01-09 21:00:09  INFO CashInController:54 - CashInController.processs, cmd:        transfercash
+2018-01-09 21:00:09  INFO CashInController:55 - CashInController.processs, data:       {"zpid":"tamvh","amount":"11111","transfer_type": 1, "client_id":"vng"}
+2018-01-09 21:00:13  INFO CashInController:53 - CashInController.processs, pathInfo:   /
+2018-01-09 21:00:13  INFO CashInController:54 - CashInController.processs, cmd:        transfercash
+2018-01-09 21:00:13  INFO CashInController:55 - CashInController.processs, data:       {"zpid":"tamvh","amount":"11111","transfer_type": 1, "client_id":"vng"}
+2018-01-09 21:03:15  INFO local:839 - local: Destroyed connection

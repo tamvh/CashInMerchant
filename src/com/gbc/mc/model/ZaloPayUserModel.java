@@ -27,7 +27,7 @@ import org.apache.log4j.Logger;
 public class ZaloPayUserModel {
     private static ZaloPayUserModel _instance = null;
     private static final Lock createLock_ = new ReentrantLock();
-    protected static final Logger logger = Logger.getLogger(CashInModel.class);
+    protected static final Logger logger = Logger.getLogger(ZaloPayUserModel.class);
     private static final Gson gson = new Gson();
     private static String serverUrl = Config.getParam("zalopayserver", "url");
 

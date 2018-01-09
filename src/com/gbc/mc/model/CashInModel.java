@@ -46,13 +46,13 @@ public class CashInModel {
         return _instance;
     }
 
-    public String transferCash(String zpid, String amout) {
+    public String transferCash(String zpid, String amout, String transfer_type, String invoice_code) {
         String content;
         int ret = AppConst.ERROR_GENERIC;
         try {
             long currentTime = CommonFunction.getCurrentDateTimeNum();
             String mid = AppConst.MID;            
-            String mtransid = CommonFunction.getCurrentDayFormat() + "_" + mid + "_" + "1251";
+            String mtransid = CommonFunction.getCurrentDayFormat() + "_" + mid + "_" + invoice_code;
             String mzalopayid = AppConst.M_ZALOPAY_ID;
             String mzalopaypin = AppConst.M_ZALOPAY_P_IN;
             String receiverzalopayname = zpid;
@@ -89,13 +89,13 @@ public class CashInModel {
         return content;
     }
     
-    public String transferCashByType(String phone_no, String amout) {
+    public String transferCashByType(String phone_no, String amout, String transfer_type, String invoice_code) {
         String content;
         int ret = AppConst.ERROR_GENERIC;
         try {
             long currentTime = CommonFunction.getCurrentDateTimeNum();
             String mid = AppConst.MID;
-            String mtransid = CommonFunction.getCurrentDayFormat() + "_" + mid + "_" + "1144";
+            String mtransid = CommonFunction.getCurrentDayFormat() + "_" + mid + "_" + invoice_code;
             String mzalopayid = AppConst.M_ZALOPAY_ID;
             String mzalopaypin = AppConst.M_ZALOPAY_P_IN;
             String receiver = phone_no;
@@ -117,7 +117,7 @@ public class CashInModel {
             params.put("mid", mid);
             params.put("mzalopayid", mzalopayid);
             params.put("mzalopaypin", mzalopaypin);
-            params.put("type", String.valueOf(AppConst.TRANSFER_TYPE_BY_PHONE));
+            params.put("type", transfer_type);
             params.put("receiver", receiver);
             params.put("amount", amount);
             params.put("reqdate", reqdate);
@@ -132,4 +132,36 @@ public class CashInModel {
         }
         return content;
     }
+    
+    public String getTransferStatus(String zptransid) {
+        String content;
+        int ret = AppConst.ERROR_GENERIC;
+        try {
+            long currentTime = CommonFunction.getCurrentDateTimeNum();
+            String mid = AppConst.MID;
+            String mzalopayid = AppConst.M_ZALOPAY_ID;
+            String reqdate = String.valueOf(currentTime);
+            String hmac = HMACUtil.HMacHexStringEncode("HmacSHA256", AppConst.HMAC_SHA256_KEY,
+                            mid + "|" +
+                            mzalopayid + "|" +
+                            zptransid + "|" +
+                            reqdate);
+            
+            Map<String, String> params = new HashMap<String, String>();
+            params.put("mid", mid);
+            params.put("mzalopayid", mzalopayid);
+            params.put("zptransid", zptransid);
+            params.put("time", reqdate);
+            params.put("mac", hmac);
+            String getStatusUrl = serverUrl + "gettransferstatus";
+            String rs = HttpHelper.sendHttpPostFormData(getStatusUrl, params, 10000);
+            content = rs;
+        } catch (IOException ex) {
+            java.util.logging.Logger.getLogger(CashInModel.class.getName()).log(Level.SEVERE, null, ex);
+            content = CommonModel.FormatResponseFromZp(ret, ex.getMessage());
+        }
+        return content;
+    }
+    
+    
 }

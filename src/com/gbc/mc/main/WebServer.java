@@ -59,8 +59,8 @@ public class WebServer implements Runnable{
             
             ServletContextHandler servletContext = new ServletContextHandler(ServletContextHandler.NO_SESSIONS);
             servletContext.setContextPath("/");                     
-            servletContext.addServlet(CashInController.class, "/v001/mctranser/api/cashin/*");  
-            servletContext.addServlet(ZaloPayUserController.class, "/v001/mctranser/api/zpuserinfo/*");  
+            servletContext.addServlet(CashInController.class, "/v001/mctransfer/api/cashin/*");  
+            servletContext.addServlet(ZaloPayUserController.class, "/v001/mctransfer/api/zpuserinfo/*");  
             HandlerList handlers = new HandlerList();
             handlers.setHandlers(new Handler[]{servletContext, new DefaultHandler()});
             server.setHandler(handlers);

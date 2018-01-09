@@ -7,8 +7,11 @@ package com.gbc.mc.controller;
 
 import com.gbc.mc.common.AppConst;
 import com.gbc.mc.common.CommonModel;
+import com.gbc.mc.common.CommonFunction;
 import com.gbc.mc.common.JsonParserUtil;
+import com.gbc.mc.data.Invoice;
 import com.gbc.mc.model.CashInModel;
+import com.gbc.mc.model.InvoiceModel;
 import com.google.gson.JsonObject;
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -71,12 +74,18 @@ public class CashInController extends HttpServlet {
             } else {                
                 String zpid = jsonObject.get("zpid").getAsString();
                 String amount = jsonObject.get("amount").getAsString();
-                int transfer_type = jsonObject.get("transfer_type").getAsInt();
+                String transfer_type = jsonObject.get("transfer_type").getAsString();
                 String client_id = jsonObject.get("client_id").getAsString();
-                if (zpid.isEmpty() || amount.isEmpty() || transfer_type > 0 || client_id.isEmpty()) {
+                if (zpid.isEmpty() || amount.isEmpty() || transfer_type.isEmpty() || client_id.isEmpty()) {
                     content = CommonModel.FormatResponse(ret, "Invalid parameter");
                 } else {
-                    content = CashInModel.getInstance().transferCash(zpid, amount);
+                    Invoice invoice = new Invoice();
+                    InvoiceModel.getInstance().generateInvoiceCode(invoice);
+                    invoice.setAmount(amount);
+                    invoice.setClient_id(client_id);
+                    invoice.setTransfer_type(transfer_type);
+                    InvoiceModel.getInstance().insertInvoice(invoice);
+                    content = CashInModel.getInstance().transferCash(zpid, amount, transfer_type, invoice.getInvoice_code());
                 }
             }
         } catch (Exception ex) {
@@ -96,12 +105,18 @@ public class CashInController extends HttpServlet {
             } else {                
                 String phone_number = jsonObject.get("phone_number").getAsString();
                 String amount = jsonObject.get("amount").getAsString();
-                int transfer_type = jsonObject.get("transfer_type").getAsInt();
+                String transfer_type = jsonObject.get("transfer_type").getAsString();
                 String client_id = jsonObject.get("client_id").getAsString();
-                if (phone_number.isEmpty() || amount.isEmpty() || transfer_type <= 0 || client_id.isEmpty()) {
+                if (phone_number.isEmpty() || amount.isEmpty() || transfer_type.isEmpty() || client_id.isEmpty()) {
                     content = CommonModel.FormatResponse(ret, "Invalid parameter");
                 } else {
-                    content = CashInModel.getInstance().transferCashByType(phone_number, amount);
+                    Invoice invoice = new Invoice();
+                    InvoiceModel.getInstance().generateInvoiceCode(invoice);
+                    invoice.setAmount(amount);
+                    invoice.setClient_id(client_id);
+                    invoice.setTransfer_type(transfer_type);
+                    InvoiceModel.getInstance().insertInvoice(invoice);
+                    content = CashInModel.getInstance().transferCashByType(phone_number, amount, transfer_type, invoice.getInvoice_code());
                 }
             }
         } catch (Exception ex) {

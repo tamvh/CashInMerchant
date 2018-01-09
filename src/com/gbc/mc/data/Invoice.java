@@ -1,0 +1,67 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.gbc.mc.data;
+
+/**
+ *
+ * @author tamvh
+ */
+public class Invoice {
+    private String invoice_code;
+    private long invoice_index;
+    private String amount;
+    private String transfer_type;
+    private String client_id;
+    private String date_order;
+
+    public String getInvoice_code() {
+        return invoice_code;
+    }
+
+    public void setInvoice_code(String invoice_code) {
+        this.invoice_code = invoice_code;
+    }
+
+    public long getInvoice_index() {
+        return invoice_index;
+    }
+
+    public void setInvoice_index(long invoice_index) {
+        this.invoice_index = invoice_index;
+    }
+
+    public String getAmount() {
+        return amount;
+    }
+
+    public void setAmount(String amount) {
+        this.amount = amount;
+    }
+
+    public String getTransfer_type() {
+        return transfer_type;
+    }
+
+    public void setTransfer_type(String transfer_type) {
+        this.transfer_type = transfer_type;
+    }
+
+    public String getClient_id() {
+        return client_id;
+    }
+
+    public void setClient_id(String client_id) {
+        this.client_id = client_id;
+    }
+
+    public String getDate_order() {
+        return date_order;
+    }
+
+    public void setDate_order(String date_order) {
+        this.date_order = date_order;
+    }
+}

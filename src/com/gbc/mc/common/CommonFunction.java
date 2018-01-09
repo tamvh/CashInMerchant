@@ -15,10 +15,12 @@ import java.util.TimeZone;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.security.Key;
+import java.util.concurrent.atomic.AtomicLong;
 import javax.crypto.Cipher;
-import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
 import org.apache.commons.codec.binary.Base64;
+import com.gbc.mc.model.InvoiceModel;
+import java.util.logging.Level;
 
 /**
  *
@@ -175,7 +177,7 @@ public class CommonFunction {
     }
 
     public static String encode(String valueToEnc) throws Exception {
-        try {            
+        try {
             Key key = generateKey();
             Cipher c = Cipher.getInstance(ALGORITHM);
             c.init(Cipher.ENCRYPT_MODE, key);
@@ -207,5 +209,4 @@ public class CommonFunction {
         Key key = new SecretKeySpec(secretkey.getBytes(), ALGORITHM);
         return key;
     }
-
 }

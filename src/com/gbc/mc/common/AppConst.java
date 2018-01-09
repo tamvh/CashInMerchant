@@ -17,8 +17,5 @@ public class AppConst {
     public static final String MID              = "7";
     public static final String M_ZALOPAY_ID     = "160527000000002"; 
     public static final String M_ZALOPAY_P_IN   = "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92";
-    public static final String TRANSFER_DESC    = "Chuyen tien test";
-    
-    //transfer type
-    public static final int TRANSFER_TYPE_BY_PHONE = 3;
+    public static final String TRANSFER_DESC    = "Chuyen tien test";    
 }
