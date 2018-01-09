@@ -1,0 +1,1068 @@
+2017-05-09 13:57:12 ERROR ReportModel:115 - ReportModel.getSummaryInvoiceByDate: Unknown column 'date' in 'group statement'
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'date' in 'group statement'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:408)
+	at com.mysql.jdbc.Util.getInstance(Util.java:383)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1062)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4226)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4158)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2615)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2776)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2834)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2783)
+	at com.mysql.jdbc.StatementImpl.execute(StatementImpl.java:908)
+	at com.mysql.jdbc.StatementImpl.execute(StatementImpl.java:788)
+	at snaq.db.CachedStatement.execute(CachedStatement.java:339)
+	at com.gbc.gateway.model.ReportModel.getReportByDatePerPage(ReportModel.java:97)
+	at com.gbc.gateway.controller.ReportController.getReportByDateOfPage(ReportController.java:174)
+	at com.gbc.gateway.controller.ReportController.processs(ReportController.java:72)
+	at com.gbc.gateway.controller.ReportController.handle(ReportController.java:45)
+	at com.gbc.gateway.controller.ReportController.doPost(ReportController.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:841)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:543)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1228)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:481)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1130)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:564)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:112)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:672)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:590)
+	at java.lang.Thread.run(Thread.java:745)
+2017-05-09 13:57:13 ERROR ReportModel:115 - ReportModel.getSummaryInvoiceByDate: Unknown column 'date' in 'group statement'
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'date' in 'group statement'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:408)
+	at com.mysql.jdbc.Util.getInstance(Util.java:383)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1062)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4226)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4158)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2615)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2776)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2834)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2783)
+	at com.mysql.jdbc.StatementImpl.execute(StatementImpl.java:908)
+	at com.mysql.jdbc.StatementImpl.execute(StatementImpl.java:788)
+	at snaq.db.CachedStatement.execute(CachedStatement.java:339)
+	at com.gbc.gateway.model.ReportModel.getReportByDatePerPage(ReportModel.java:97)
+	at com.gbc.gateway.controller.ReportController.getReportByDateOfPage(ReportController.java:174)
+	at com.gbc.gateway.controller.ReportController.processs(ReportController.java:72)
+	at com.gbc.gateway.controller.ReportController.handle(ReportController.java:45)
+	at com.gbc.gateway.controller.ReportController.doPost(ReportController.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:841)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:543)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1228)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:481)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1130)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:564)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:112)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.Invocable.invokePreferred(Invocable.java:122)
+	at org.eclipse.jetty.util.thread.strategy.ExecutingExecutionStrategy.invoke(ExecutingExecutionStrategy.java:58)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:201)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:133)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:672)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:590)
+	at java.lang.Thread.run(Thread.java:745)
+2017-05-09 13:58:02  INFO ServiceDaemon:35 - Shutdown thread before webserver getinstance
+2017-05-09 13:58:02  INFO AbstractConnector:320 - Stopped ServerConnector@21a6f9a9{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2017-05-09 13:58:02  INFO ContextHandler:932 - Stopped o.e.j.s.ServletContextHandler@498c1f63{/,null,UNAVAILABLE}
+2017-05-09 13:58:02  INFO ContextHandler:932 - Stopped o.e.j.s.h.ContextHandler@7b008daa{/static,null,UNAVAILABLE}
+ay?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-09 13:57:58  INFO local:839 - local: Created a new connection
+2017-05-09 13:57:58  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-09 13:57:58  INFO local:839 - local: Created a new connection
+2017-05-09 13:57:58  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-09 13:57:58  INFO local:839 - local: Created a new connection
+2017-05-09 13:57:58  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-09 13:57:58  INFO local:839 - local: Created a new connection
+2017-05-09 13:57:58  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-09 13:57:58  INFO local:839 - local: Created a new connection
+2017-05-09 13:57:58  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-09 13:57:58  INFO local:839 - local: Created a new connection
+2017-05-09 13:57:58  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-09 13:57:58  INFO local:839 - local: Created a new connection
+2017-05-09 13:57:58  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-09 13:57:58  INFO local:839 - local: Created a new connection
+2017-05-09 13:57:58  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-09 13:57:58  INFO local:839 - local: Created a new connection
+2017-05-09 13:57:58  INFO log:192 - Logging initialized @945ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-05-09 13:57:58  INFO WebServer:63 - Start server...
+2017-05-09 13:57:58  INFO Server:372 - jetty-9.4.1.v20170120
+2017-05-09 13:57:59  INFO ContextHandler:791 - Started o.e.j.s.h.ContextHandler@79ab9a04{/static,null,AVAILABLE}
+2017-05-09 13:57:59  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@4993958e{/,null,AVAILABLE}
+2017-05-09 13:57:59 ERROR WebServer:92 - Cannot start web server: Address already in use
+2017-05-09 13:57:59  INFO ServiceDaemon:35 - Shutdown thread before webserver getinstance
+2017-05-09 13:57:59  INFO AbstractConnector:320 - Stopped ServerConnector@61f92e2f{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2017-05-09 13:57:59  INFO ContextHandler:932 - Stopped o.e.j.s.ServletContextHandler@4993958e{/,null,UNAVAILABLE}
+2017-05-09 13:57:59  INFO ContextHandler:932 - Stopped o.e.j.s.h.ContextHandler@79ab9a04{/static,null,UNAVAILABLE}
+2017-05-09 13:58:07  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-09 13:58:07  INFO local:839 - local: Created a new connection
+2017-05-09 13:58:07  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-09 13:58:07  INFO local:839 - local: Created a new connection
+2017-05-09 13:58:07  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-09 13:58:07  INFO local:839 - local: Created a new connection
+2017-05-09 13:58:07  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-09 13:58:07  INFO local:839 - local: Created a new connection
+2017-05-09 13:58:07  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-09 13:58:07  INFO local:839 - local: Created a new connection
+2017-05-09 13:58:07  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-09 13:58:07  INFO local:839 - local: Created a new connection
+2017-05-09 13:58:07  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-09 13:58:07  INFO local:839 - local: Created a new connection
+2017-05-09 13:58:07  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-09 13:58:07  INFO local:839 - local: Created a new connection
+2017-05-09 13:58:07  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-09 13:58:07  INFO local:839 - local: Created a new connection
+2017-05-09 13:58:07  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-09 13:58:07  INFO local:839 - local: Created a new connection
+2017-05-09 13:58:07  INFO log:192 - Logging initialized @915ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-05-09 13:58:07  INFO WebServer:63 - Start server...
+2017-05-09 13:58:07  INFO Server:372 - jetty-9.4.1.v20170120
+2017-05-09 13:58:07  INFO ContextHandler:791 - Started o.e.j.s.h.ContextHandler@45495dbd{/static,null,AVAILABLE}
+2017-05-09 13:58:07  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@7de192ff{/,null,AVAILABLE}
+2017-05-09 13:58:07  INFO AbstractConnector:280 - Started ServerConnector@4d371e52{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2017-05-09 13:58:07  INFO Server:444 - Started @1018ms
+2017-05-09 13:58:11 ERROR ReportModel:115 - ReportModel.getSummaryInvoiceByDate: Unknown column 'date' in 'group statement'
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'date' in 'group statement'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:408)
+	at com.mysql.jdbc.Util.getInstance(Util.java:383)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1062)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4226)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4158)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2615)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2776)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2834)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2783)
+	at com.mysql.jdbc.StatementImpl.execute(StatementImpl.java:908)
+	at com.mysql.jdbc.StatementImpl.execute(StatementImpl.java:788)
+	at snaq.db.CachedStatement.execute(CachedStatement.java:339)
+	at com.gbc.gateway.model.ReportModel.getReportByDatePerPage(ReportModel.java:78)
+	at com.gbc.gateway.controller.ReportController.getReportByDateOfPage(ReportController.java:174)
+	at com.gbc.gateway.controller.ReportController.processs(ReportController.java:72)
+	at com.gbc.gateway.controller.ReportController.handle(ReportController.java:45)
+	at com.gbc.gateway.controller.ReportController.doPost(ReportController.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:841)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:543)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1228)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:481)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1130)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:564)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:112)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:672)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:590)
+	at java.lang.Thread.run(Thread.java:745)
+2017-05-09 14:01:07  INFO local:839 - local: Destroyed connection
+2017-05-09 14:01:12  INFO local:839 - local: Destroyed connection
+2017-05-09 14:01:12  INFO local:839 - local: Destroyed connection
+2017-05-09 14:01:12  INFO local:839 - local: Destroyed connection
+2017-05-09 14:01:12  INFO local:839 - local: Destroyed connection
+2017-05-09 14:01:12  INFO local:839 - local: Destroyed connection
+2017-05-09 14:01:12  INFO local:839 - local: Destroyed connection
+2017-05-09 14:01:12  INFO local:839 - local: Destroyed connection
+2017-05-09 14:01:12  INFO local:839 - local: Destroyed connection
+2017-05-09 14:01:12  INFO local:839 - local: Destroyed connection
+2017-05-09 14:04:56  INFO ServiceDaemon:35 - Shutdown thread before webserver getinstance
+2017-05-09 14:04:56  INFO AbstractConnector:320 - Stopped ServerConnector@4d371e52{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2017-05-09 14:04:56  INFO ContextHandler:932 - Stopped o.e.j.s.ServletContextHandler@7de192ff{/,null,UNAVAILABLE}
+2017-05-09 14:04:56  INFO ContextHandler:932 - Stopped o.e.j.s.h.ContextHandler@45495dbd{/static,null,UNAVAILABLE}
+2017-05-09 14:05:01  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-09 14:05:01  INFO local:839 - local: Created a new connection
+2017-05-09 14:05:01  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-09 14:05:01  INFO local:839 - local: Created a new connection
+2017-05-09 14:05:01  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-09 14:05:01  INFO local:839 - local: Created a new connection
+2017-05-09 14:05:01  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-09 14:05:01  INFO local:839 - local: Created a new connection
+2017-05-09 14:05:01  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-09 14:05:01  INFO local:839 - local: Created a new connection
+2017-05-09 14:05:01  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-09 14:05:01  INFO local:839 - local: Created a new connection
+2017-05-09 14:05:01  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-09 14:05:01  INFO local:839 - local: Created a new connection
+2017-05-09 14:05:01  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-09 14:05:01  INFO local:839 - local: Created a new connection
+2017-05-09 14:05:01  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-09 14:05:01  INFO local:839 - local: Created a new connection
+2017-05-09 14:05:01  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-09 14:05:01  INFO local:839 - local: Created a new connection
+2017-05-09 14:05:01  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-09 14:05:01  INFO local:839 - local: Created a new connection
+2017-05-09 14:05:02  INFO log:192 - Logging initialized @1070ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-05-09 14:05:02  INFO WebServer:63 - Start server...
+2017-05-09 14:05:02  INFO Server:372 - jetty-9.4.1.v20170120
+2017-05-09 14:05:02  INFO ContextHandler:791 - Started o.e.j.s.h.ContextHandler@7b008daa{/static,null,AVAILABLE}
+2017-05-09 14:05:02  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@498c1f63{/,null,AVAILABLE}
+2017-05-09 14:05:02  INFO AbstractConnector:280 - Started ServerConnector@21a6f9a9{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2017-05-09 14:05:02  INFO Server:444 - Started @1180ms
+2017-05-09 14:06:45  INFO ServiceDaemon:35 - Shutdown thread before webserver getinstance
+2017-05-09 14:06:45  INFO AbstractConnector:320 - Stopped ServerConnector@21a6f9a9{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2017-05-09 14:06:45  INFO ContextHandler:932 - Stopped o.e.j.s.ServletContextHandler@498c1f63{/,null,UNAVAILABLE}
+2017-05-09 14:06:45  INFO ContextHandler:932 - Stopped o.e.j.s.h.ContextHandler@7b008daa{/static,null,UNAVAILABLE}
+2017-05-09 14:06:48  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-09 14:06:48  INFO local:839 - local: Created a new connection
+2017-05-09 14:06:48  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-09 14:06:48  INFO local:839 - local: Created a new connection
+2017-05-09 14:06:48  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-09 14:06:48  INFO local:839 - local: Created a new connection
+2017-05-09 14:06:48  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-09 14:06:48  INFO local:839 - local: Created a new connection
+2017-05-09 14:06:48  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-09 14:06:48  INFO local:839 - local: Created a new connection
+2017-05-09 14:06:48  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-09 14:06:48  INFO local:839 - local: Created a new connection
+2017-05-09 14:06:48  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-09 14:06:48  INFO local:839 - local: Created a new connection
+2017-05-09 14:06:48  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-09 14:06:48  INFO local:839 - local: Created a new connection
+2017-05-09 14:06:48  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-09 14:06:48  INFO local:839 - local: Created a new connection
+2017-05-09 14:06:48  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-09 14:06:48  INFO local:839 - local: Created a new connection
+2017-05-09 14:06:48  INFO log:192 - Logging initialized @956ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-05-09 14:06:48  INFO WebServer:63 - Start server...
+2017-05-09 14:06:48  INFO Server:372 - jetty-9.4.1.v20170120
+2017-05-09 14:06:48  INFO ContextHandler:791 - Started o.e.j.s.h.ContextHandler@52f04b31{/static,null,AVAILABLE}
+2017-05-09 14:06:48  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@70189603{/,null,AVAILABLE}
+2017-05-09 14:06:48  INFO AbstractConnector:280 - Started ServerConnector@500cc219{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2017-05-09 14:06:48  INFO Server:444 - Started @1069ms
+2017-05-09 14:07:13  INFO InvoiceController:60 - get list invoice: {"app_id":"33","payment_status":1,"payment_date_time_from":"2017-5-9","payment_date_time_to":"2017-5-9","current_page":1,"total_trans_per_page":50}
+2017-05-09 14:07:13  INFO InvoiceController:64 - get summary: {"app_id":"33","payment_status":1,"payment_date_time_from":"2017-5-9","payment_date_time_to":"2017-5-9"}
+2017-05-09 14:07:15  INFO InvoiceController:54 - get list trans: {"payment_status":1,"app_id":"33","today":"2017-5-9"}
+2017-05-09 14:07:18  INFO InvoiceController:60 - get list invoice: {"app_id":"33","payment_status":1,"payment_date_time_from":"2017-5-9","payment_date_time_to":"2017-5-9","current_page":1,"total_trans_per_page":50}
+2017-05-09 14:07:18  INFO InvoiceController:64 - get summary: {"app_id":"33","payment_status":1,"payment_date_time_from":"2017-5-9","payment_date_time_to":"2017-5-9"}
+2017-05-09 14:07:26  INFO ServiceDaemon:35 - Shutdown thread before webserver getinstance
+2017-05-09 14:07:26  INFO AbstractConnector:320 - Stopped ServerConnector@500cc219{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2017-05-09 14:07:26  INFO ContextHandler:932 - Stopped o.e.j.s.ServletContextHandler@70189603{/,null,UNAVAILABLE}
+2017-05-09 14:07:26  INFO ContextHandler:932 - Stopped o.e.j.s.h.ContextHandler@52f04b31{/static,null,UNAVAILABLE}
+2017-05-23 16:42:26  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-23 16:42:27  INFO local:839 - local: Created a new connection
+2017-05-23 16:42:27  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-23 16:42:27  INFO local:839 - local: Created a new connection
+2017-05-23 16:42:27  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-23 16:42:27  INFO local:839 - local: Created a new connection
+2017-05-23 16:42:27  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-23 16:42:27  INFO local:839 - local: Created a new connection
+2017-05-23 16:42:27  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-23 16:42:27  INFO local:839 - local: Created a new connection
+2017-05-23 16:42:27  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-23 16:42:27  INFO local:839 - local: Created a new connection
+2017-05-23 16:42:27  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-23 16:42:27  INFO local:839 - local: Created a new connection
+2017-05-23 16:42:27  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-23 16:42:27  INFO local:839 - local: Created a new connection
+2017-05-23 16:42:27  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-23 16:42:27  INFO local:839 - local: Created a new connection
+2017-05-23 16:42:27  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-23 16:42:27  INFO local:839 - local: Created a new connection
+2017-05-23 16:42:27  INFO log:192 - Logging initialized @1942ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-05-23 16:42:28  INFO WebServer:63 - Start server...
+2017-05-23 16:42:28  INFO Server:372 - jetty-9.4.1.v20170120
+2017-05-23 16:42:28  INFO ContextHandler:791 - Started o.e.j.s.h.ContextHandler@7606cfcc{/static,null,AVAILABLE}
+2017-05-23 16:42:28  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@6338b8a6{/,null,AVAILABLE}
+2017-05-23 16:42:28  INFO AbstractConnector:280 - Started ServerConnector@36c73d9c{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2017-05-23 16:42:28  INFO Server:444 - Started @2320ms
+2017-05-23 16:43:12  INFO ServiceDaemon:35 - Shutdown thread before webserver getinstance
+2017-05-23 16:43:12  INFO AbstractConnector:320 - Stopped ServerConnector@36c73d9c{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2017-05-23 16:43:12  INFO ContextHandler:932 - Stopped o.e.j.s.ServletContextHandler@6338b8a6{/,null,UNAVAILABLE}
+2017-05-23 16:43:12  INFO ContextHandler:932 - Stopped o.e.j.s.h.ContextHandler@7606cfcc{/static,null,UNAVAILABLE}
+2017-05-23 16:43:17  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-23 16:43:17  INFO local:839 - local: Created a new connection
+2017-05-23 16:43:17  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-23 16:43:17  INFO local:839 - local: Created a new connection
+2017-05-23 16:43:17  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-23 16:43:17  INFO local:839 - local: Created a new connection
+2017-05-23 16:43:17  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-23 16:43:17  INFO local:839 - local: Created a new connection
+2017-05-23 16:43:17  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-23 16:43:17  INFO local:839 - local: Created a new connection
+2017-05-23 16:43:17  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-23 16:43:17  INFO local:839 - local: Created a new connection
+2017-05-23 16:43:17  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-23 16:43:17  INFO local:839 - local: Created a new connection
+2017-05-23 16:43:17  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-23 16:43:18  INFO local:839 - local: Created a new connection
+2017-05-23 16:43:18  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-23 16:43:18  INFO local:839 - local: Created a new connection
+2017-05-23 16:43:18  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-23 16:43:18  INFO local:839 - local: Created a new connection
+2017-05-23 16:43:18  INFO log:192 - Logging initialized @1249ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-05-23 16:43:18  INFO WebServer:63 - Start server...
+2017-05-23 16:43:18  INFO Server:372 - jetty-9.4.1.v20170120
+2017-05-23 16:43:18  INFO ContextHandler:791 - Started o.e.j.s.h.ContextHandler@66110e0e{/static,null,AVAILABLE}
+2017-05-23 16:43:18  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@590b5c82{/,null,AVAILABLE}
+2017-05-23 16:43:18  INFO AbstractConnector:280 - Started ServerConnector@348d8812{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2017-05-23 16:43:18  INFO Server:444 - Started @1379ms
+2017-05-23 16:44:22  INFO ServiceDaemon:35 - Shutdown thread before webserver getinstance
+2017-05-23 16:44:22  INFO AbstractConnector:320 - Stopped ServerConnector@348d8812{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2017-05-23 16:44:22  INFO ContextHandler:932 - Stopped o.e.j.s.ServletContextHandler@590b5c82{/,null,UNAVAILABLE}
+2017-05-23 16:44:22  INFO ContextHandler:932 - Stopped o.e.j.s.h.ContextHandler@66110e0e{/static,null,UNAVAILABLE}
+2017-05-23 16:44:25  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-23 16:44:26  INFO local:839 - local: Created a new connection
+2017-05-23 16:44:26  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-23 16:44:26  INFO local:839 - local: Created a new connection
+2017-05-23 16:44:26  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-23 16:44:26  INFO local:839 - local: Created a new connection
+2017-05-23 16:44:26  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-23 16:44:26  INFO local:839 - local: Created a new connection
+2017-05-23 16:44:26  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-23 16:44:26  INFO local:839 - local: Created a new connection
+2017-05-23 16:44:26  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-23 16:44:26  INFO local:839 - local: Created a new connection
+2017-05-23 16:44:26  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-23 16:44:26  INFO local:839 - local: Created a new connection
+2017-05-23 16:44:26  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-23 16:44:26  INFO local:839 - local: Created a new connection
+2017-05-23 16:44:26  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-23 16:44:26  INFO local:839 - local: Created a new connection
+2017-05-23 16:44:26  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-23 16:44:26  INFO local:839 - local: Created a new connection
+2017-05-23 16:44:26  INFO log:192 - Logging initialized @907ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-05-23 16:44:26  INFO WebServer:63 - Start server...
+2017-05-23 16:44:26  INFO Server:372 - jetty-9.4.1.v20170120
+2017-05-23 16:44:26  INFO ContextHandler:791 - Started o.e.j.s.h.ContextHandler@6597b787{/static,null,AVAILABLE}
+2017-05-23 16:44:26  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@3327f884{/,null,AVAILABLE}
+2017-05-23 16:44:26  INFO AbstractConnector:280 - Started ServerConnector@2d70fc87{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2017-05-23 16:44:26  INFO Server:444 - Started @1020ms
+2017-05-23 16:44:27  INFO ServiceDaemon:35 - Shutdown thread before webserver getinstance
+2017-05-23 16:44:27  INFO AbstractConnector:320 - Stopped ServerConnector@2d70fc87{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2017-05-23 16:44:27  INFO ContextHandler:932 - Stopped o.e.j.s.ServletContextHandler@3327f884{/,null,UNAVAILABLE}
+2017-05-23 16:44:27  INFO ContextHandler:932 - Stopped o.e.j.s.h.ContextHandler@6597b787{/static,null,UNAVAILABLE}
+2017-05-23 16:44:31  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-23 16:44:31  INFO local:839 - local: Created a new connection
+2017-05-23 16:44:31  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-23 16:44:31  INFO local:839 - local: Created a new connection
+2017-05-23 16:44:31  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-23 16:44:31  INFO local:839 - local: Created a new connection
+2017-05-23 16:44:31  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-23 16:44:31  INFO local:839 - local: Created a new connection
+2017-05-23 16:44:31  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-23 16:44:31  INFO local:839 - local: Created a new connection
+2017-05-23 16:44:31  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-23 16:44:31  INFO local:839 - local: Created a new connection
+2017-05-23 16:44:31  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-23 16:44:31  INFO local:839 - local: Created a new connection
+2017-05-23 16:44:31  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-23 16:44:31  INFO local:839 - local: Created a new connection
+2017-05-23 16:44:31  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-23 16:44:31  INFO local:839 - local: Created a new connection
+2017-05-23 16:44:31  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-23 16:44:31  INFO local:839 - local: Created a new connection
+2017-05-23 16:44:32  INFO log:192 - Logging initialized @1476ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-05-23 16:44:32  INFO WebServer:63 - Start server...
+2017-05-23 16:44:32  INFO Server:372 - jetty-9.4.1.v20170120
+2017-05-23 16:44:32  INFO ContextHandler:791 - Started o.e.j.s.h.ContextHandler@6b03c01{/static,null,AVAILABLE}
+2017-05-23 16:44:32  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@315653be{/,null,AVAILABLE}
+2017-05-23 16:44:32  INFO AbstractConnector:280 - Started ServerConnector@74352e00{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2017-05-23 16:44:32  INFO Server:444 - Started @1605ms
+2017-05-25 00:48:02  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-25 00:48:03  INFO local:839 - local: Created a new connection
+2017-05-25 00:48:03  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-25 00:48:03  INFO local:839 - local: Created a new connection
+2017-05-25 00:48:03  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-25 00:48:03  INFO local:839 - local: Created a new connection
+2017-05-25 00:48:03  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-25 00:48:03  INFO local:839 - local: Created a new connection
+2017-05-25 00:48:03  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-25 00:48:03  INFO local:839 - local: Created a new connection
+2017-05-25 00:48:03  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-25 00:48:03  INFO local:839 - local: Created a new connection
+2017-05-25 00:48:03  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-25 00:48:03  INFO local:839 - local: Created a new connection
+2017-05-25 00:48:03  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-25 00:48:03  INFO local:839 - local: Created a new connection
+2017-05-25 00:48:03  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-25 00:48:03  INFO local:839 - local: Created a new connection
+2017-05-25 00:48:03  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-25 00:48:03  INFO local:839 - local: Created a new connection
+2017-05-25 00:48:03  INFO log:192 - Logging initialized @2248ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-05-25 00:48:04  INFO WebServer:63 - Start server...
+2017-05-25 00:48:04  INFO Server:372 - jetty-9.4.1.v20170120
+2017-05-25 00:48:04  INFO ContextHandler:791 - Started o.e.j.s.h.ContextHandler@29b05fc1{/static,null,AVAILABLE}
+2017-05-25 00:48:04  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@7ac3c2b5{/,null,AVAILABLE}
+2017-05-25 00:48:04  INFO AbstractConnector:280 - Started ServerConnector@6c419ebe{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2017-05-25 00:48:04  INFO Server:444 - Started @2564ms
+2017-05-25 00:51:03  INFO local:839 - local: Destroyed connection
+2017-05-25 00:51:08  INFO local:839 - local: Destroyed connection
+2017-05-25 00:51:08  INFO local:839 - local: Destroyed connection
+2017-05-25 00:51:08  INFO local:839 - local: Destroyed connection
+2017-05-25 00:51:08  INFO local:839 - local: Destroyed connection
+2017-05-25 00:51:08  INFO local:839 - local: Destroyed connection
+2017-05-25 00:51:08  INFO local:839 - local: Destroyed connection
+2017-05-25 00:51:08  INFO local:839 - local: Destroyed connection
+2017-05-25 00:51:08  INFO local:839 - local: Destroyed connection
+2017-05-25 00:51:08  INFO local:839 - local: Destroyed connection
+2017-05-30 15:19:39  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:19:39  INFO local:839 - local: Created a new connection
+2017-05-30 15:19:39  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:19:39  INFO local:839 - local: Created a new connection
+2017-05-30 15:19:39  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:19:39  INFO local:839 - local: Created a new connection
+2017-05-30 15:19:39  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:19:39  INFO local:839 - local: Created a new connection
+2017-05-30 15:19:39  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:19:39  INFO local:839 - local: Created a new connection
+2017-05-30 15:19:39  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:19:39  INFO local:839 - local: Created a new connection
+2017-05-30 15:19:39  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:19:39  INFO local:839 - local: Created a new connection
+2017-05-30 15:19:39  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:19:39  INFO local:839 - local: Created a new connection
+2017-05-30 15:19:39  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:19:39  INFO local:839 - local: Created a new connection
+2017-05-30 15:19:39  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:19:39  INFO local:839 - local: Created a new connection
+2017-05-30 15:19:40  INFO log:192 - Logging initialized @1420ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-05-30 15:19:40  INFO WebServer:63 - Start server...
+2017-05-30 15:19:40  INFO Server:372 - jetty-9.4.1.v20170120
+2017-05-30 15:19:40  INFO ContextHandler:791 - Started o.e.j.s.h.ContextHandler@46dfe169{/static,null,AVAILABLE}
+2017-05-30 15:19:40  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@3dd060fd{/,null,AVAILABLE}
+2017-05-30 15:19:40  INFO AbstractConnector:280 - Started ServerConnector@43e380c6{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2017-05-30 15:19:40  INFO Server:444 - Started @1548ms
+2017-05-30 15:20:37  INFO CommonFunction:83 - Ex deleteSession: java.lang.IllegalStateException: No SessionManager
+2017-05-30 15:22:29  INFO ServiceDaemon:35 - Shutdown thread before webserver getinstance
+2017-05-30 15:22:29  INFO AbstractConnector:320 - Stopped ServerConnector@43e380c6{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2017-05-30 15:22:29  INFO ContextHandler:932 - Stopped o.e.j.s.ServletContextHandler@3dd060fd{/,null,UNAVAILABLE}
+2017-05-30 15:22:29  INFO ContextHandler:932 - Stopped o.e.j.s.h.ContextHandler@46dfe169{/static,null,UNAVAILABLE}
+2017-05-30 15:22:33  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:22:34  INFO local:839 - local: Created a new connection
+2017-05-30 15:22:34  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:22:34  INFO local:839 - local: Created a new connection
+2017-05-30 15:22:34  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:22:34  INFO local:839 - local: Created a new connection
+2017-05-30 15:22:34  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:22:34  INFO local:839 - local: Created a new connection
+2017-05-30 15:22:34  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:22:34  INFO local:839 - local: Created a new connection
+2017-05-30 15:22:34  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:22:34  INFO local:839 - local: Created a new connection
+2017-05-30 15:22:34  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:22:34  INFO local:839 - local: Created a new connection
+2017-05-30 15:22:34  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:22:34  INFO local:839 - local: Created a new connection
+2017-05-30 15:22:34  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:22:34  INFO local:839 - local: Created a new connection
+2017-05-30 15:22:34  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:22:34  INFO local:839 - local: Created a new connection
+2017-05-30 15:22:34  INFO log:192 - Logging initialized @1171ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-05-30 15:22:34  INFO WebServer:63 - Start server...
+2017-05-30 15:22:34  INFO Server:372 - jetty-9.4.1.v20170120
+2017-05-30 15:22:34  INFO ContextHandler:791 - Started o.e.j.s.h.ContextHandler@775a8ed1{/static,null,AVAILABLE}
+2017-05-30 15:22:34  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@5021e92c{/,null,AVAILABLE}
+2017-05-30 15:22:34  INFO AbstractConnector:280 - Started ServerConnector@46575a63{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2017-05-30 15:22:34  INFO Server:444 - Started @1339ms
+2017-05-30 15:25:34  INFO local:839 - local: Destroyed connection
+2017-05-30 15:25:39  INFO local:839 - local: Destroyed connection
+2017-05-30 15:25:39  INFO local:839 - local: Destroyed connection
+2017-05-30 15:25:39  INFO local:839 - local: Destroyed connection
+2017-05-30 15:25:39  INFO local:839 - local: Destroyed connection
+2017-05-30 15:25:39  INFO local:839 - local: Destroyed connection
+2017-05-30 15:25:39  INFO local:839 - local: Destroyed connection
+2017-05-30 15:25:39  INFO local:839 - local: Destroyed connection
+2017-05-30 15:25:39  INFO local:839 - local: Destroyed connection
+2017-05-30 15:25:39  INFO local:839 - local: Destroyed connection
+2017-05-30 15:30:46  INFO ServiceDaemon:35 - Shutdown thread before webserver getinstance
+2017-05-30 15:30:46  INFO AbstractConnector:320 - Stopped ServerConnector@46575a63{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2017-05-30 15:30:46  INFO ContextHandler:932 - Stopped o.e.j.s.ServletContextHandler@5021e92c{/,null,UNAVAILABLE}
+2017-05-30 15:30:46  INFO ContextHandler:932 - Stopped o.e.j.s.h.ContextHandler@775a8ed1{/static,null,UNAVAILABLE}
+2017-05-30 15:30:50  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:30:50  INFO local:839 - local: Created a new connection
+2017-05-30 15:30:50  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:30:50  INFO local:839 - local: Created a new connection
+2017-05-30 15:30:50  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:30:50  INFO local:839 - local: Created a new connection
+2017-05-30 15:30:50  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:30:50  INFO local:839 - local: Created a new connection
+2017-05-30 15:30:50  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:30:50  INFO local:839 - local: Created a new connection
+2017-05-30 15:30:50  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:30:50  INFO local:839 - local: Created a new connection
+2017-05-30 15:30:50  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:30:50  INFO local:839 - local: Created a new connection
+2017-05-30 15:30:50  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:30:50  INFO local:839 - local: Created a new connection
+2017-05-30 15:30:50  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:30:50  INFO local:839 - local: Created a new connection
+2017-05-30 15:30:50  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:30:50  INFO local:839 - local: Created a new connection
+2017-05-30 15:30:50  INFO log:192 - Logging initialized @1144ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-05-30 15:30:50  INFO WebServer:63 - Start server...
+2017-05-30 15:30:50  INFO Server:372 - jetty-9.4.1.v20170120
+2017-05-30 15:30:50  INFO ContextHandler:791 - Started o.e.j.s.h.ContextHandler@4cd816a6{/static,null,AVAILABLE}
+2017-05-30 15:30:50  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@690d13ec{/,null,AVAILABLE}
+2017-05-30 15:30:51  INFO AbstractConnector:280 - Started ServerConnector@54bccd16{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2017-05-30 15:30:51  INFO Server:444 - Started @1265ms
+2017-05-30 15:31:40  INFO InvoiceController:54 - get list trans: {"payment_status":1,"app_id":"33","today":"2017-5-30"}
+2017-05-30 15:31:44  INFO InvoiceController:54 - get list trans: {"payment_status":1,"app_id":"33","today":"2017-5-30"}
+2017-05-30 15:31:47  INFO InvoiceController:54 - get list trans: {"payment_status":1,"app_id":"33","today":"2017-5-1"}
+2017-05-30 15:33:32  INFO InvoiceController:60 - get list invoice: {"app_id":"33","payment_status":1,"payment_date_time_from":"2017-5-30","payment_date_time_to":"2017-5-30","current_page":1,"total_trans_per_page":50}
+2017-05-30 15:33:32  INFO InvoiceController:64 - get summary: {"app_id":"33","payment_status":1,"payment_date_time_from":"2017-5-30","payment_date_time_to":"2017-5-30"}
+2017-05-30 15:33:50  INFO local:839 - local: Destroyed connection
+2017-05-30 15:33:55  INFO local:839 - local: Destroyed connection
+2017-05-30 15:33:55  INFO local:839 - local: Destroyed connection
+2017-05-30 15:33:55  INFO local:839 - local: Destroyed connection
+2017-05-30 15:33:55  INFO local:839 - local: Destroyed connection
+2017-05-30 15:33:55  INFO local:839 - local: Destroyed connection
+2017-05-30 15:33:55  INFO local:839 - local: Destroyed connection
+2017-05-30 15:33:55  INFO local:839 - local: Destroyed connection
+2017-05-30 15:34:40  INFO InvoiceController:60 - get list invoice: {"app_id":"33","payment_status":1,"payment_date_time_from":"2016-12-25","payment_date_time_to":"2017-5-30","current_page":1,"total_trans_per_page":50}
+2017-05-30 15:34:40  INFO InvoiceController:64 - get summary: {"app_id":"33","payment_status":1,"payment_date_time_from":"2016-12-25","payment_date_time_to":"2017-5-30"}
+2017-05-30 15:36:35  INFO local:839 - local: Destroyed connection
+2017-05-30 15:38:05  INFO local:839 - local: Destroyed connection
+2017-05-30 15:42:38  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:42:38  INFO local:839 - local: Created a new connection
+2017-05-30 15:46:38  INFO local:839 - local: Destroyed connection
+2017-05-30 15:46:49  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:46:49  INFO local:839 - local: Created a new connection
+2017-05-30 15:49:59  INFO local:839 - local: Destroyed connection
+2017-05-30 15:56:32  INFO ServiceDaemon:35 - Shutdown thread before webserver getinstance
+2017-05-30 15:56:32  INFO AbstractConnector:320 - Stopped ServerConnector@54bccd16{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2017-05-30 15:56:32  INFO ContextHandler:932 - Stopped o.e.j.s.ServletContextHandler@690d13ec{/,null,UNAVAILABLE}
+2017-05-30 15:56:32  INFO ContextHandler:932 - Stopped o.e.j.s.h.ContextHandler@4cd816a6{/static,null,UNAVAILABLE}
+2017-05-30 15:56:42  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:56:42  INFO local:839 - local: Created a new connection
+2017-05-30 15:56:42  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:56:42  INFO local:839 - local: Created a new connection
+2017-05-30 15:56:42  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:56:42  INFO local:839 - local: Created a new connection
+2017-05-30 15:56:42  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:56:42  INFO local:839 - local: Created a new connection
+2017-05-30 15:56:42  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:56:42  INFO local:839 - local: Created a new connection
+2017-05-30 15:56:42  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:56:42  INFO local:839 - local: Created a new connection
+2017-05-30 15:56:42  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:56:43  INFO local:839 - local: Created a new connection
+2017-05-30 15:56:43  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:56:43  INFO local:839 - local: Created a new connection
+2017-05-30 15:56:43  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:56:43  INFO local:839 - local: Created a new connection
+2017-05-30 15:56:43  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:56:43  INFO local:839 - local: Created a new connection
+2017-05-30 15:56:43  INFO log:192 - Logging initialized @2222ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-05-30 15:56:43  INFO WebServer:63 - Start server...
+2017-05-30 15:56:43  INFO Server:372 - jetty-9.4.1.v20170120
+2017-05-30 15:56:43  INFO ContextHandler:791 - Started o.e.j.s.h.ContextHandler@5d2f8159{/static,null,AVAILABLE}
+2017-05-30 15:56:43  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@5e3dffc2{/,null,AVAILABLE}
+2017-05-30 15:56:43  INFO AbstractConnector:280 - Started ServerConnector@528ffed4{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2017-05-30 15:56:43  INFO Server:444 - Started @2365ms
+2017-05-30 15:57:07  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:57:07  INFO local:839 - local: Created a new connection
+2017-05-30 15:57:07  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:57:07  INFO local:839 - local: Created a new connection
+2017-05-30 15:57:07  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:57:07  INFO local:839 - local: Created a new connection
+2017-05-30 15:57:07  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:57:07  INFO local:839 - local: Created a new connection
+2017-05-30 15:57:07  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:57:07  INFO local:839 - local: Created a new connection
+2017-05-30 15:57:07  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:57:07  INFO local:839 - local: Created a new connection
+2017-05-30 15:57:07  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:57:07  INFO local:839 - local: Created a new connection
+2017-05-30 15:57:07  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:57:07  INFO local:839 - local: Created a new connection
+2017-05-30 15:57:07  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:57:07  INFO local:839 - local: Created a new connection
+2017-05-30 15:57:07  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 15:57:07  INFO local:839 - local: Created a new connection
+2017-05-30 15:57:07  INFO log:192 - Logging initialized @1152ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-05-30 15:57:08  INFO WebServer:63 - Start server...
+2017-05-30 15:57:08  INFO Server:372 - jetty-9.4.1.v20170120
+2017-05-30 15:57:08  INFO ContextHandler:791 - Started o.e.j.s.h.ContextHandler@228f3c1f{/static,null,AVAILABLE}
+2017-05-30 15:57:08  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@63b8f99b{/,null,AVAILABLE}
+2017-05-30 15:57:08 ERROR WebServer:92 - Cannot start web server: Address already in use
+2017-05-30 15:57:08  INFO ServiceDaemon:35 - Shutdown thread before webserver getinstance
+2017-05-30 15:57:08  INFO AbstractConnector:320 - Stopped ServerConnector@5f35847b{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2017-05-30 15:57:08  INFO ContextHandler:932 - Stopped o.e.j.s.ServletContextHandler@63b8f99b{/,null,UNAVAILABLE}
+2017-05-30 15:57:08  INFO ContextHandler:932 - Stopped o.e.j.s.h.ContextHandler@228f3c1f{/static,null,UNAVAILABLE}
+2017-05-30 15:59:42  INFO local:839 - local: Destroyed connection
+2017-05-30 15:59:47  INFO local:839 - local: Destroyed connection
+2017-05-30 15:59:48  INFO local:839 - local: Destroyed connection
+2017-05-30 15:59:48  INFO local:839 - local: Destroyed connection
+2017-05-30 15:59:48  INFO local:839 - local: Destroyed connection
+2017-05-30 15:59:48  INFO local:839 - local: Destroyed connection
+2017-05-30 15:59:48  INFO local:839 - local: Destroyed connection
+2017-05-30 15:59:48  INFO local:839 - local: Destroyed connection
+2017-05-30 16:00:28  INFO local:839 - local: Destroyed connection
+2017-05-30 16:00:28  INFO local:839 - local: Destroyed connection
+2017-05-30 16:21:27  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 16:21:27  INFO local:839 - local: Created a new connection
+2017-05-30 16:21:49  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 16:21:49  INFO local:839 - local: Created a new connection
+2017-05-30 16:27:39  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 16:27:39  INFO local:839 - local: Created a new connection
+2017-05-30 16:27:39  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 16:27:39  INFO local:839 - local: Created a new connection
+2017-05-30 16:27:39  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 16:27:39  INFO local:839 - local: Created a new connection
+2017-05-30 16:27:39  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 16:27:39  INFO local:839 - local: Created a new connection
+2017-05-30 16:27:39  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 16:27:39  INFO local:839 - local: Created a new connection
+2017-05-30 16:27:39  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 16:27:39  INFO local:839 - local: Created a new connection
+2017-05-30 16:27:39  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 16:27:39  INFO local:839 - local: Created a new connection
+2017-05-30 16:27:39  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 16:27:39  INFO local:839 - local: Created a new connection
+2017-05-30 16:27:39  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 16:27:39  INFO local:839 - local: Created a new connection
+2017-05-30 16:27:39  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 16:27:39  INFO local:839 - local: Created a new connection
+2017-05-30 16:27:40  INFO log:192 - Logging initialized @1645ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-05-30 16:27:40  INFO WebServer:63 - Start server...
+2017-05-30 16:27:40  INFO Server:372 - jetty-9.4.1.v20170120
+2017-05-30 16:27:40  INFO ContextHandler:791 - Started o.e.j.s.h.ContextHandler@46591163{/static,null,AVAILABLE}
+2017-05-30 16:27:40  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@1b054f75{/,null,AVAILABLE}
+2017-05-30 16:27:40  INFO AbstractConnector:280 - Started ServerConnector@6b902fe3{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2017-05-30 16:27:40  INFO Server:444 - Started @1794ms
+2017-05-30 16:30:14  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 16:30:14  INFO local:839 - local: Created a new connection
+2017-05-30 16:30:14  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 16:30:14  INFO local:839 - local: Created a new connection
+2017-05-30 16:30:14  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 16:30:14  INFO local:839 - local: Created a new connection
+2017-05-30 16:30:14  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 16:30:14  INFO local:839 - local: Created a new connection
+2017-05-30 16:30:14  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 16:30:14  INFO local:839 - local: Created a new connection
+2017-05-30 16:30:14  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 16:30:14  INFO local:839 - local: Created a new connection
+2017-05-30 16:30:14  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 16:30:14  INFO local:839 - local: Created a new connection
+2017-05-30 16:30:14  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 16:30:14  INFO local:839 - local: Created a new connection
+2017-05-30 16:30:14  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 16:30:14  INFO local:839 - local: Created a new connection
+2017-05-30 16:30:14  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 16:30:14  INFO local:839 - local: Created a new connection
+2017-05-30 16:30:15  INFO log:192 - Logging initialized @1048ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-05-30 16:30:15  INFO WebServer:63 - Start server...
+2017-05-30 16:30:15  INFO Server:372 - jetty-9.4.1.v20170120
+2017-05-30 16:30:15  INFO ContextHandler:791 - Started o.e.j.s.h.ContextHandler@7cdf5e6{/static,null,AVAILABLE}
+2017-05-30 16:30:15  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@63152406{/,null,AVAILABLE}
+2017-05-30 16:30:15  INFO AbstractConnector:280 - Started ServerConnector@2deed093{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2017-05-30 16:30:15  INFO Server:444 - Started @1164ms
+2017-05-30 16:33:14  INFO local:839 - local: Destroyed connection
+2017-05-30 16:33:19  INFO local:839 - local: Destroyed connection
+2017-05-30 16:33:20  INFO local:839 - local: Destroyed connection
+2017-05-30 16:33:20  INFO local:839 - local: Destroyed connection
+2017-05-30 16:33:20  INFO local:839 - local: Destroyed connection
+2017-05-30 16:33:20  INFO local:839 - local: Destroyed connection
+2017-05-30 16:33:20  INFO local:839 - local: Destroyed connection
+2017-05-30 16:33:20  INFO local:839 - local: Destroyed connection
+2017-05-30 16:33:45  INFO local:839 - local: Destroyed connection
+2017-05-30 16:34:10  INFO local:839 - local: Destroyed connection
+2017-05-30 16:34:42  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 16:34:42  INFO local:839 - local: Created a new connection
+2017-05-30 16:36:54  INFO ServiceDaemon:35 - Shutdown thread before webserver getinstance
+2017-05-30 16:36:54  INFO AbstractConnector:320 - Stopped ServerConnector@2deed093{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2017-05-30 16:36:54  INFO ContextHandler:932 - Stopped o.e.j.s.ServletContextHandler@63152406{/,null,UNAVAILABLE}
+2017-05-30 16:36:54  INFO ContextHandler:932 - Stopped o.e.j.s.h.ContextHandler@7cdf5e6{/static,null,UNAVAILABLE}
+2017-05-30 16:37:01  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 16:37:01  INFO local:839 - local: Created a new connection
+2017-05-30 16:37:01  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 16:37:01  INFO local:839 - local: Created a new connection
+2017-05-30 16:37:01  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 16:37:01  INFO local:839 - local: Created a new connection
+2017-05-30 16:37:01  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 16:37:01  INFO local:839 - local: Created a new connection
+2017-05-30 16:37:01  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 16:37:01  INFO local:839 - local: Created a new connection
+2017-05-30 16:37:01  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 16:37:01  INFO local:839 - local: Created a new connection
+2017-05-30 16:37:01  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 16:37:01  INFO local:839 - local: Created a new connection
+2017-05-30 16:37:01  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 16:37:01  INFO local:839 - local: Created a new connection
+2017-05-30 16:37:01  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 16:37:01  INFO local:839 - local: Created a new connection
+2017-05-30 16:37:01  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 16:37:01  INFO local:839 - local: Created a new connection
+2017-05-30 16:37:02  INFO log:192 - Logging initialized @1070ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-05-30 16:37:02  INFO WebServer:63 - Start server...
+2017-05-30 16:37:02  INFO Server:372 - jetty-9.4.1.v20170120
+2017-05-30 16:37:02  INFO ContextHandler:791 - Started o.e.j.s.h.ContextHandler@6c17fea2{/static,null,AVAILABLE}
+2017-05-30 16:37:02  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@6b3709eb{/,null,AVAILABLE}
+2017-05-30 16:37:02  INFO AbstractConnector:280 - Started ServerConnector@24d0094{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2017-05-30 16:37:02  INFO Server:444 - Started @1194ms
+2017-05-30 16:40:06  INFO local:839 - local: Destroyed connection
+2017-05-30 16:40:06  INFO local:839 - local: Destroyed connection
+2017-05-30 16:40:06  INFO local:839 - local: Destroyed connection
+2017-05-30 16:40:06  INFO local:839 - local: Destroyed connection
+2017-05-30 16:40:06  INFO local:839 - local: Destroyed connection
+2017-05-30 16:40:06  INFO local:839 - local: Destroyed connection
+2017-05-30 16:40:06  INFO local:839 - local: Destroyed connection
+2017-05-30 16:40:06  INFO local:839 - local: Destroyed connection
+2017-05-30 16:40:06  INFO local:839 - local: Destroyed connection
+2017-05-30 16:40:06  INFO local:839 - local: Destroyed connection
+2017-05-30 16:49:39  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 16:49:39  INFO local:839 - local: Created a new connection
+2017-05-30 16:49:39  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/zp_gateway?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-05-30 16:49:39  INFO local:839 - local: Created a new connection
+2017-05-30 16:52:01  INFO ServiceDaemon:35 - Shutdown thread before webserver getinstance
+2017-05-30 16:52:01  INFO AbstractConnector:320 - Stopped ServerConnector@24d0094{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2017-05-30 16:52:01  INFO ContextHandler:932 - Stopped o.e.j.s.ServletContextHandler@6b3709eb{/,null,UNAVAILABLE}
+2017-05-30 16:52:01  INFO ContextHandler:932 - Stopped o.e.j.s.h.ContextHandler@6c17fea2{/static,null,UNAVAILABLE}
+2017-07-05 10:13:49 ERROR ServiceDaemon:39 - Exception encountered during startup.
+com.vng.csm.configuration.ConfigException: Invalid configuration file.
+	at com.vng.csm.configuration.INIFileConfiguration.<init>(INIFileConfiguration.java:23)
+	at com.gbc.gateway.common.Config.init(Config.java:25)
+	at com.gbc.gateway.main.ServiceDaemon.main(ServiceDaemon.java:24)
+Caused by: org.apache.commons.configuration.ConfigurationException: Cannot locate configuration source zp-gateway-backend.conf
+	at org.apache.commons.configuration.AbstractFileConfiguration.load(AbstractFileConfiguration.java:217)
+	at org.apache.commons.configuration.AbstractFileConfiguration.load(AbstractFileConfiguration.java:197)
+	at org.apache.commons.configuration.AbstractHierarchicalFileConfiguration.load(AbstractHierarchicalFileConfiguration.java:164)
+	at org.apache.commons.configuration.AbstractHierarchicalFileConfiguration.<init>(AbstractHierarchicalFileConfiguration.java:91)
+	at org.apache.commons.configuration.HierarchicalINIConfiguration.<init>(HierarchicalINIConfiguration.java:232)
+	at com.vng.csm.configuration.INIFileConfiguration.<init>(INIFileConfiguration.java:21)
+	... 2 more
+2017-07-05 10:13:49 ERROR ServiceDaemon:41 - Uncaught exception: Invalid configuration file.
+com.vng.csm.configuration.ConfigException: Invalid configuration file.
+	at com.vng.csm.configuration.INIFileConfiguration.<init>(INIFileConfiguration.java:23)
+	at com.gbc.gateway.common.Config.init(Config.java:25)
+	at com.gbc.gateway.main.ServiceDaemon.main(ServiceDaemon.java:24)
+Caused by: org.apache.commons.configuration.ConfigurationException: Cannot locate configuration source zp-gateway-backend.conf
+	at org.apache.commons.configuration.AbstractFileConfiguration.load(AbstractFileConfiguration.java:217)
+	at org.apache.commons.configuration.AbstractFileConfiguration.load(AbstractFileConfiguration.java:197)
+	at org.apache.commons.configuration.AbstractHierarchicalFileConfiguration.load(AbstractHierarchicalFileConfiguration.java:164)
+	at org.apache.commons.configuration.AbstractHierarchicalFileConfiguration.<init>(AbstractHierarchicalFileConfiguration.java:91)
+	at org.apache.commons.configuration.HierarchicalINIConfiguration.<init>(HierarchicalINIConfiguration.java:232)
+	at com.vng.csm.configuration.INIFileConfiguration.<init>(INIFileConfiguration.java:21)
+	... 2 more
+2017-07-05 10:14:46 ERROR ServiceDaemon:39 - Exception encountered during startup.
+com.vng.csm.configuration.ConfigException: Invalid configuration file.
+	at com.vng.csm.configuration.INIFileConfiguration.<init>(INIFileConfiguration.java:23)
+	at com.gbc.gateway.common.Config.init(Config.java:25)
+	at com.gbc.gateway.main.ServiceDaemon.main(ServiceDaemon.java:24)
+Caused by: org.apache.commons.configuration.ConfigurationException: Cannot locate configuration source zp-gateway-backend.conf
+	at org.apache.commons.configuration.AbstractFileConfiguration.load(AbstractFileConfiguration.java:217)
+	at org.apache.commons.configuration.AbstractFileConfiguration.load(AbstractFileConfiguration.java:197)
+	at org.apache.commons.configuration.AbstractHierarchicalFileConfiguration.load(AbstractHierarchicalFileConfiguration.java:164)
+	at org.apache.commons.configuration.AbstractHierarchicalFileConfiguration.<init>(AbstractHierarchicalFileConfiguration.java:91)
+	at org.apache.commons.configuration.HierarchicalINIConfiguration.<init>(HierarchicalINIConfiguration.java:232)
+	at com.vng.csm.configuration.INIFileConfiguration.<init>(INIFileConfiguration.java:21)
+	... 2 more
+2017-07-05 10:14:46 ERROR ServiceDaemon:41 - Uncaught exception: Invalid configuration file.
+com.vng.csm.configuration.ConfigException: Invalid configuration file.
+	at com.vng.csm.configuration.INIFileConfiguration.<init>(INIFileConfiguration.java:23)
+	at com.gbc.gateway.common.Config.init(Config.java:25)
+	at com.gbc.gateway.main.ServiceDaemon.main(ServiceDaemon.java:24)
+Caused by: org.apache.commons.configuration.ConfigurationException: Cannot locate configuration source zp-gateway-backend.conf
+	at org.apache.commons.configuration.AbstractFileConfiguration.load(AbstractFileConfiguration.java:217)
+	at org.apache.commons.configuration.AbstractFileConfiguration.load(AbstractFileConfiguration.java:197)
+	at org.apache.commons.configuration.AbstractHierarchicalFileConfiguration.load(AbstractHierarchicalFileConfiguration.java:164)
+	at org.apache.commons.configuration.AbstractHierarchicalFileConfiguration.<init>(AbstractHierarchicalFileConfiguration.java:91)
+	at org.apache.commons.configuration.HierarchicalINIConfiguration.<init>(HierarchicalINIConfiguration.java:232)
+	at com.vng.csm.configuration.INIFileConfiguration.<init>(INIFileConfiguration.java:21)
+	... 2 more
+2017-07-05 10:15:02 ERROR ServiceDaemon:39 - Exception encountered during startup.
+com.vng.csm.configuration.ConfigException: Invalid configuration file.
+	at com.vng.csm.configuration.INIFileConfiguration.<init>(INIFileConfiguration.java:23)
+	at com.gbc.gateway.common.Config.init(Config.java:25)
+	at com.gbc.gateway.main.ServiceDaemon.main(ServiceDaemon.java:24)
+Caused by: org.apache.commons.configuration.ConfigurationException: Cannot locate configuration source zp-gateway-backend.conf
+	at org.apache.commons.configuration.AbstractFileConfiguration.load(AbstractFileConfiguration.java:217)
+	at org.apache.commons.configuration.AbstractFileConfiguration.load(AbstractFileConfiguration.java:197)
+	at org.apache.commons.configuration.AbstractHierarchicalFileConfiguration.load(AbstractHierarchicalFileConfiguration.java:164)
+	at org.apache.commons.configuration.AbstractHierarchicalFileConfiguration.<init>(AbstractHierarchicalFileConfiguration.java:91)
+	at org.apache.commons.configuration.HierarchicalINIConfiguration.<init>(HierarchicalINIConfiguration.java:232)
+	at com.vng.csm.configuration.INIFileConfiguration.<init>(INIFileConfiguration.java:21)
+	... 2 more
+2017-07-05 10:15:02 ERROR ServiceDaemon:41 - Uncaught exception: Invalid configuration file.
+com.vng.csm.configuration.ConfigException: Invalid configuration file.
+	at com.vng.csm.configuration.INIFileConfiguration.<init>(INIFileConfiguration.java:23)
+	at com.gbc.gateway.common.Config.init(Config.java:25)
+	at com.gbc.gateway.main.ServiceDaemon.main(ServiceDaemon.java:24)
+Caused by: org.apache.commons.configuration.ConfigurationException: Cannot locate configuration source zp-gateway-backend.conf
+	at org.apache.commons.configuration.AbstractFileConfiguration.load(AbstractFileConfiguration.java:217)
+	at org.apache.commons.configuration.AbstractFileConfiguration.load(AbstractFileConfiguration.java:197)
+	at org.apache.commons.configuration.AbstractHierarchicalFileConfiguration.load(AbstractHierarchicalFileConfiguration.java:164)
+	at org.apache.commons.configuration.AbstractHierarchicalFileConfiguration.<init>(AbstractHierarchicalFileConfiguration.java:91)
+	at org.apache.commons.configuration.HierarchicalINIConfiguration.<init>(HierarchicalINIConfiguration.java:232)
+	at com.vng.csm.configuration.INIFileConfiguration.<init>(INIFileConfiguration.java:21)
+	... 2 more
+2017-07-05 10:15:29  INFO log:192 - Logging initialized @913ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-07-05 10:15:29  INFO WebServer:60 - Start server...
+2017-07-05 10:15:29  INFO Server:372 - jetty-9.4.1.v20170120
+2017-07-05 10:15:29  INFO ContextHandler:791 - Started o.e.j.s.h.ContextHandler@2e76d70{/static,null,AVAILABLE}
+2017-07-05 10:15:29  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@4be03219{/,null,AVAILABLE}
+2017-07-05 10:15:29  INFO AbstractConnector:280 - Started ServerConnector@a6edd2d{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2017-07-05 10:15:29  INFO Server:444 - Started @1605ms
+2017-07-05 10:15:40  INFO ServiceDaemon:30 - Shutdown thread before webserver getinstance
+2017-07-05 10:15:40  INFO AbstractConnector:320 - Stopped ServerConnector@a6edd2d{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2017-07-05 10:15:40  INFO ContextHandler:932 - Stopped o.e.j.s.ServletContextHandler@4be03219{/,null,UNAVAILABLE}
+2017-07-05 10:15:40  INFO ContextHandler:932 - Stopped o.e.j.s.h.ContextHandler@2e76d70{/static,null,UNAVAILABLE}
+2017-07-06 09:49:10  INFO log:192 - Logging initialized @1353ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-07-06 09:49:10  INFO WebServer:60 - Start server...
+2017-07-06 09:49:11  INFO Server:372 - jetty-9.4.1.v20170120
+2017-07-06 09:49:11  INFO ContextHandler:791 - Started o.e.j.s.h.ContextHandler@5ff81216{/static,null,AVAILABLE}
+2017-07-06 09:49:11  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@181d13fe{/,null,AVAILABLE}
+2017-07-06 09:49:11  INFO AbstractConnector:280 - Started ServerConnector@65a2934f{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2017-07-06 09:49:12  INFO Server:444 - Started @2550ms
+2017-07-06 09:49:22  INFO ServiceDaemon:30 - Shutdown thread before webserver getinstance
+2017-07-06 09:49:22  INFO AbstractConnector:320 - Stopped ServerConnector@65a2934f{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2017-07-06 09:49:22  INFO ContextHandler:932 - Stopped o.e.j.s.ServletContextHandler@181d13fe{/,null,UNAVAILABLE}
+2017-07-06 09:49:22  INFO ContextHandler:932 - Stopped o.e.j.s.h.ContextHandler@5ff81216{/static,null,UNAVAILABLE}
+2017-07-06 09:49:36  INFO log:192 - Logging initialized @3293ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-07-06 09:49:36  INFO WebServer:60 - Start server...
+2017-07-06 09:49:36  INFO Server:372 - jetty-9.4.1.v20170120
+2017-07-06 09:49:37  INFO ContextHandler:791 - Started o.e.j.s.h.ContextHandler@36a93799{/static,null,AVAILABLE}
+2017-07-06 09:49:37  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@3c41f59a{/,null,AVAILABLE}
+2017-07-06 09:49:37  INFO AbstractConnector:280 - Started ServerConnector@1eeb903f{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2017-07-06 09:49:37  INFO Server:444 - Started @4541ms
+2017-07-06 09:56:04  INFO ServiceDaemon:30 - Shutdown thread before webserver getinstance
+2017-07-06 09:56:04  INFO AbstractConnector:320 - Stopped ServerConnector@1eeb903f{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2017-07-06 09:56:04  INFO ContextHandler:932 - Stopped o.e.j.s.ServletContextHandler@3c41f59a{/,null,UNAVAILABLE}
+2017-07-06 09:56:04  INFO ContextHandler:932 - Stopped o.e.j.s.h.ContextHandler@36a93799{/static,null,UNAVAILABLE}
+2017-07-28 10:35:13  INFO log:192 - Logging initialized @1348ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-07-28 10:35:13  INFO WebServer:60 - Start server...
+2017-07-28 10:35:13  INFO Server:372 - jetty-9.4.1.v20170120
+2017-07-28 10:35:13  INFO ContextHandler:791 - Started o.e.j.s.h.ContextHandler@5ff81216{/static,null,AVAILABLE}
+2017-07-28 10:35:13  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@181d13fe{/,null,AVAILABLE}
+2017-07-28 10:35:13  INFO AbstractConnector:280 - Started ServerConnector@65a2934f{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2017-07-28 10:35:13  INFO Server:444 - Started @2279ms
+2017-07-28 10:35:17  INFO ServiceDaemon:30 - Shutdown thread before webserver getinstance
+2017-07-28 10:35:17  INFO AbstractConnector:320 - Stopped ServerConnector@65a2934f{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2017-07-28 10:35:17  INFO ContextHandler:932 - Stopped o.e.j.s.ServletContextHandler@181d13fe{/,null,UNAVAILABLE}
+2017-07-28 10:35:17  INFO ContextHandler:932 - Stopped o.e.j.s.h.ContextHandler@5ff81216{/static,null,UNAVAILABLE}
+2017-07-28 13:58:27  INFO log:192 - Logging initialized @1892ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-07-28 13:58:27  INFO WebServer:60 - Start server...
+2017-07-28 13:58:27  INFO Server:372 - jetty-9.4.1.v20170120
+2017-07-28 13:58:27  INFO ContextHandler:791 - Started o.e.j.s.h.ContextHandler@5e86a0e3{/static,null,AVAILABLE}
+2017-07-28 13:58:27  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@51549fe2{/,null,AVAILABLE}
+2017-07-28 13:58:27  INFO AbstractConnector:280 - Started ServerConnector@624a8f54{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2017-07-28 13:58:27  INFO Server:444 - Started @2386ms
+2017-07-28 13:59:22  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vpp?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-07-28 13:59:22  INFO local:839 - local: Created a new connection
+2017-07-28 14:00:52  INFO log:192 - Logging initialized @818ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-07-28 14:00:52  INFO WebServer:60 - Start server...
+2017-07-28 14:00:52  INFO Server:372 - jetty-9.4.1.v20170120
+2017-07-28 14:00:52  INFO ContextHandler:791 - Started o.e.j.s.h.ContextHandler@5e86a0e3{/static,null,AVAILABLE}
+2017-07-28 14:00:52  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@51549fe2{/,null,AVAILABLE}
+2017-07-28 14:00:52  INFO AbstractConnector:280 - Started ServerConnector@28e9ac4a{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2017-07-28 14:00:52  INFO Server:444 - Started @1322ms
+2017-07-28 14:02:32  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vpp?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-07-28 14:02:33  INFO local:839 - local: Created a new connection
+2017-07-28 14:04:45  INFO log:192 - Logging initialized @763ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-07-28 14:04:45  INFO WebServer:60 - Start server...
+2017-07-28 14:04:45  INFO Server:372 - jetty-9.4.1.v20170120
+2017-07-28 14:04:45  INFO ContextHandler:791 - Started o.e.j.s.h.ContextHandler@5ff81216{/static,null,AVAILABLE}
+2017-07-28 14:04:45  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@181d13fe{/,null,AVAILABLE}
+2017-07-28 14:04:45  INFO AbstractConnector:280 - Started ServerConnector@65a2934f{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2017-07-28 14:04:45  INFO Server:444 - Started @1233ms
+2017-07-28 14:04:55  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vpp?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-07-28 14:04:55  INFO local:839 - local: Created a new connection
+2017-07-28 14:04:55  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vpp?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-07-28 14:04:55  INFO local:839 - local: Created a new connection
+2017-07-28 14:04:55  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vpp?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-07-28 14:04:55  INFO local:839 - local: Created a new connection
+2017-07-28 14:04:55  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vpp?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-07-28 14:04:55  INFO local:839 - local: Created a new connection
+2017-07-28 14:04:55  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vpp?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-07-28 14:04:55  INFO local:839 - local: Created a new connection
+2017-07-28 14:04:55  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vpp?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-07-28 14:04:55  INFO local:839 - local: Created a new connection
+2017-07-28 14:04:55  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vpp?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-07-28 14:04:55  INFO local:839 - local: Created a new connection
+2017-07-28 14:04:55  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vpp?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-07-28 14:04:55  INFO local:839 - local: Created a new connection
+2017-07-28 14:04:55  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vpp?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-07-28 14:04:55  INFO local:839 - local: Created a new connection
+2017-07-28 14:04:55  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vpp?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-07-28 14:04:55  INFO local:839 - local: Created a new connection
+2017-07-28 14:07:55  INFO local:839 - local: Destroyed connection
+2017-07-28 14:07:55  INFO local:839 - local: Destroyed connection
+2017-07-28 14:07:55  INFO local:839 - local: Destroyed connection
+2017-07-28 14:07:55  INFO local:839 - local: Destroyed connection
+2017-07-28 14:07:55  INFO local:839 - local: Destroyed connection
+2017-07-28 14:08:00  INFO local:839 - local: Destroyed connection
+2017-07-28 14:08:00  INFO local:839 - local: Destroyed connection
+2017-07-28 14:08:00  INFO local:839 - local: Destroyed connection
+2017-07-28 14:08:00  INFO local:839 - local: Destroyed connection
+2017-07-28 14:08:30  INFO local:839 - local: Destroyed connection
+2017-07-28 17:07:59  INFO ServiceDaemon:30 - Shutdown thread before webserver getinstance
+2017-07-28 17:07:59  INFO AbstractConnector:320 - Stopped ServerConnector@65a2934f{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2017-07-28 17:07:59  INFO ContextHandler:932 - Stopped o.e.j.s.ServletContextHandler@181d13fe{/,null,UNAVAILABLE}
+2017-07-28 17:07:59  INFO ContextHandler:932 - Stopped o.e.j.s.h.ContextHandler@5ff81216{/static,null,UNAVAILABLE}
+2017-07-31 10:50:07  INFO log:192 - Logging initialized @1671ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-07-31 10:50:07  INFO WebServer:60 - Start server...
+2017-07-31 10:50:07  INFO Server:372 - jetty-9.4.1.v20170120
+2017-07-31 10:50:07  INFO ContextHandler:791 - Started o.e.j.s.h.ContextHandler@36a93799{/static,null,AVAILABLE}
+2017-07-31 10:50:07  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@3c41f59a{/,null,AVAILABLE}
+2017-07-31 10:50:07  INFO AbstractConnector:280 - Started ServerConnector@1eeb903f{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2017-07-31 10:50:07  INFO Server:444 - Started @2126ms
+2017-07-31 10:54:35  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vpp?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-07-31 10:54:36  INFO local:839 - local: Created a new connection
+2017-07-31 10:55:01  INFO log:192 - Logging initialized @849ms to org.eclipse.jetty.util.log.Slf4jLog
+2017-07-31 10:55:01  INFO WebServer:60 - Start server...
+2017-07-31 10:55:02  INFO Server:372 - jetty-9.4.1.v20170120
+2017-07-31 10:55:02  INFO ContextHandler:791 - Started o.e.j.s.h.ContextHandler@42047293{/static,null,AVAILABLE}
+2017-07-31 10:55:02  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@59a85f9c{/,null,AVAILABLE}
+2017-07-31 10:55:02  INFO AbstractConnector:280 - Started ServerConnector@670094dd{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2017-07-31 10:55:02  INFO Server:444 - Started @1375ms
+2017-07-31 10:55:10  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vpp?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-07-31 10:55:10  INFO local:839 - local: Created a new connection
+2017-07-31 10:55:10  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vpp?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-07-31 10:55:10  INFO local:839 - local: Created a new connection
+2017-07-31 10:55:10  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vpp?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-07-31 10:55:10  INFO local:839 - local: Created a new connection
+2017-07-31 10:55:10  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vpp?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-07-31 10:55:10  INFO local:839 - local: Created a new connection
+2017-07-31 10:55:10  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vpp?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-07-31 10:55:10  INFO local:839 - local: Created a new connection
+2017-07-31 10:55:10  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vpp?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-07-31 10:55:10  INFO local:839 - local: Created a new connection
+2017-07-31 10:55:10  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vpp?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-07-31 10:55:10  INFO local:839 - local: Created a new connection
+2017-07-31 10:55:10  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vpp?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-07-31 10:55:10  INFO local:839 - local: Created a new connection
+2017-07-31 10:55:10  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vpp?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-07-31 10:55:10  INFO local:839 - local: Created a new connection
+2017-07-31 10:55:10  INFO local:839 - local: Getting connection (user/password): jdbc:mysql://127.0.0.1:3306/vpp?autoReconnect=true&failOverReadOnly=false&maxReconnects=10&useUnicode=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true
+2017-07-31 10:55:11  INFO local:839 - local: Created a new connection
+2017-07-31 10:55:48  INFO ServiceDaemon:30 - Shutdown thread before webserver getinstance
+2017-07-31 10:55:48  INFO AbstractConnector:320 - Stopped ServerConnector@670094dd{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2017-07-31 10:55:48  INFO ContextHandler:932 - Stopped o.e.j.s.ServletContextHandler@59a85f9c{/,null,UNAVAILABLE}
+2017-07-31 10:55:48  INFO ContextHandler:932 - Stopped o.e.j.s.h.ContextHandler@42047293{/static,null,UNAVAILABLE}
+2018-01-08 10:52:28  INFO log:192 - Logging initialized @346ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-01-08 10:52:28  INFO WebServer:57 - Start server...
+2018-01-08 10:52:28  INFO Server:372 - jetty-9.4.1.v20170120
+2018-01-08 10:52:28  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@339dd550{/,null,AVAILABLE}
+2018-01-08 10:52:28  INFO AbstractConnector:280 - Started ServerConnector@31601120{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2018-01-08 10:52:28  INFO Server:444 - Started @564ms
+2018-01-08 11:01:41  INFO ServiceDaemon:30 - Shutdown thread before webserver getinstance
+2018-01-08 11:01:41  INFO AbstractConnector:320 - Stopped ServerConnector@31601120{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2018-01-08 11:01:41  INFO ContextHandler:932 - Stopped o.e.j.s.ServletContextHandler@339dd550{/,null,UNAVAILABLE}
+2018-01-08 11:01:47  INFO log:192 - Logging initialized @319ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-01-08 11:01:47  INFO WebServer:57 - Start server...
+2018-01-08 11:01:47  INFO Server:372 - jetty-9.4.1.v20170120
+2018-01-08 11:01:47  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@1342ed8{/,null,AVAILABLE}
+2018-01-08 11:01:47  INFO AbstractConnector:280 - Started ServerConnector@16b551f2{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2018-01-08 11:01:47  INFO Server:444 - Started @546ms
+2018-01-08 11:01:52  INFO CashInController:46 - CashInController.processs, pathInfo: /
+2018-01-08 11:01:52  INFO CashInController:47 - CashInController.processs, cmd: transfercash
+2018-01-08 11:01:52  INFO CashInController:48 - CashInController.processs, data: {}
+2018-01-08 11:26:07  INFO ServiceDaemon:30 - Shutdown thread before webserver getinstance
+2018-01-08 11:26:07  INFO AbstractConnector:320 - Stopped ServerConnector@16b551f2{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2018-01-08 11:26:07  INFO ContextHandler:932 - Stopped o.e.j.s.ServletContextHandler@1342ed8{/,null,UNAVAILABLE}
+2018-01-09 15:17:53  INFO log:192 - Logging initialized @667ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-01-09 15:17:53  INFO WebServer:57 - Start server...
+2018-01-09 15:17:53  INFO Server:372 - jetty-9.4.1.v20170120
+2018-01-09 15:17:53  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@4891747{/,null,AVAILABLE}
+2018-01-09 15:17:53  INFO AbstractConnector:280 - Started ServerConnector@2d0be21e{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2018-01-09 15:17:53  INFO Server:444 - Started @1094ms
+2018-01-09 15:21:01  INFO CashInController:50 - CashInController.processs, pathInfo: /
+2018-01-09 15:21:01  INFO CashInController:51 - CashInController.processs, cmd: 
+2018-01-09 15:21:01  INFO CashInController:52 - CashInController.processs, data: {"phone_number":"0935954858","amount":"10000","transfer_type": 3, "client_id":"vng"}
+2018-01-09 15:21:33  INFO ServiceDaemon:30 - Shutdown thread before webserver getinstance
+2018-01-09 15:21:33  INFO AbstractConnector:320 - Stopped ServerConnector@2d0be21e{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2018-01-09 15:21:33  INFO ContextHandler:932 - Stopped o.e.j.s.ServletContextHandler@4891747{/,null,UNAVAILABLE}
+2018-01-09 15:21:50  INFO log:192 - Logging initialized @1005ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-01-09 15:21:50  INFO WebServer:57 - Start server...
+2018-01-09 15:21:50  INFO Server:372 - jetty-9.4.1.v20170120
+2018-01-09 15:21:50  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@45a7078f{/,null,AVAILABLE}
+2018-01-09 15:21:50  INFO AbstractConnector:280 - Started ServerConnector@70a3f24f{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2018-01-09 15:21:50  INFO Server:444 - Started @1399ms
+2018-01-09 15:21:56  INFO CashInController:50 - CashInController.processs, pathInfo: /
+2018-01-09 15:21:56  INFO CashInController:51 - CashInController.processs, cmd: 
+2018-01-09 15:21:56  INFO CashInController:52 - CashInController.processs, data: {"phone_number":"0935954858","amount":"10000","transfer_type": 3, "client_id":"vng"}
+2018-01-09 15:22:29  INFO CashInController:50 - CashInController.processs, pathInfo: /
+2018-01-09 15:23:23  INFO CashInController:51 - CashInController.processs, cmd: 
+2018-01-09 15:23:23  INFO CashInController:52 - CashInController.processs, data: {"phone_number":"0935954858","amount":"10000","transfer_type": 3, "client_id":"vng"}
+2018-01-09 15:23:42  INFO CashInController:50 - CashInController.processs, pathInfo: /
+2018-01-09 15:23:42  INFO CashInController:51 - CashInController.processs, cmd: transfercashtype
+2018-01-09 15:23:42  INFO CashInController:52 - CashInController.processs, data: {"phone_number":"0935954858","amount":"10000","transfer_type": 3, "client_id":"vng"}
+2018-01-09 15:24:09  INFO ServiceDaemon:30 - Shutdown thread before webserver getinstance
+2018-01-09 15:24:09  INFO AbstractConnector:320 - Stopped ServerConnector@70a3f24f{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2018-01-09 15:24:09  INFO ContextHandler:932 - Stopped o.e.j.s.ServletContextHandler@45a7078f{/,null,UNAVAILABLE}
+2018-01-09 15:24:24  INFO log:192 - Logging initialized @357ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-01-09 15:24:24  INFO WebServer:57 - Start server...
+2018-01-09 15:24:24  INFO Server:372 - jetty-9.4.1.v20170120
+2018-01-09 15:24:24  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@4752a910{/,null,AVAILABLE}
+2018-01-09 15:24:24  INFO AbstractConnector:280 - Started ServerConnector@636a67fe{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2018-01-09 15:24:24  INFO Server:444 - Started @564ms
+2018-01-09 15:24:43  INFO CashInController:50 - CashInController.processs, pathInfo: /
+2018-01-09 15:24:43  INFO CashInController:51 - CashInController.processs, cmd: transfercashtype
+2018-01-09 15:24:43  INFO CashInController:52 - CashInController.processs, data: {"phone_number":"0935954858","amount":"10000","transfer_type": 3, "client_id":"vng"}
+2018-01-09 15:25:19  INFO ServiceDaemon:30 - Shutdown thread before webserver getinstance
+2018-01-09 15:25:19  INFO AbstractConnector:320 - Stopped ServerConnector@636a67fe{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2018-01-09 15:25:19  INFO ContextHandler:932 - Stopped o.e.j.s.ServletContextHandler@4752a910{/,null,UNAVAILABLE}
+2018-01-09 15:53:54  INFO log:192 - Logging initialized @339ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-01-09 15:53:54  INFO WebServer:58 - Start server...
+2018-01-09 15:53:54  INFO Server:372 - jetty-9.4.1.v20170120
+2018-01-09 15:53:54  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@1dfdae7b{/,null,AVAILABLE}
+2018-01-09 15:53:54  INFO AbstractConnector:280 - Started ServerConnector@361fd03c{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2018-01-09 15:53:54  INFO Server:444 - Started @567ms
+2018-01-09 15:55:42  INFO ZaloPayUserController:51 - ZaloPayUserController.processs, pathInfo: /
+2018-01-09 15:55:42  INFO ZaloPayUserController:52 - ZaloPayUserController.processs, cmd: getzalopayuserinfobyzpid
+2018-01-09 15:55:42  INFO ZaloPayUserController:53 - ZaloPayUserController.processs, data: {"zpid":"tamvh"}
+2018-01-09 15:56:18  INFO ZaloPayUserController:51 - ZaloPayUserController.processs, pathInfo: /
+2018-01-09 15:56:18  INFO ZaloPayUserController:52 - ZaloPayUserController.processs, cmd: getzalopayuserinfobyzpid
+2018-01-09 15:56:18  INFO ZaloPayUserController:53 - ZaloPayUserController.processs, data: {"zpid":"tamvh"}
+2018-01-09 15:58:22  INFO ServiceDaemon:30 - Shutdown thread before webserver getinstance
+2018-01-09 15:58:22  INFO AbstractConnector:320 - Stopped ServerConnector@361fd03c{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2018-01-09 15:58:22  INFO ContextHandler:932 - Stopped o.e.j.s.ServletContextHandler@1dfdae7b{/,null,UNAVAILABLE}
+2018-01-09 16:00:20  INFO log:192 - Logging initialized @346ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-01-09 16:00:20  INFO WebServer:58 - Start server...
+2018-01-09 16:00:20  INFO Server:372 - jetty-9.4.1.v20170120
+2018-01-09 16:00:20  INFO ContextHandler:791 - Started o.e.j.s.ServletContextHandler@aec23a8{/,null,AVAILABLE}
+2018-01-09 16:00:20  INFO AbstractConnector:280 - Started ServerConnector@11784af6{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2018-01-09 16:00:20  INFO Server:444 - Started @592ms
+2018-01-09 16:01:41  INFO ZaloPayUserController:50 - ZaloPayUserController.processs, pathInfo: /
+2018-01-09 16:01:41  INFO ZaloPayUserController:51 - ZaloPayUserController.processs, cmd: getzalopayuserinfobyphone
+2018-01-09 16:01:41  INFO ZaloPayUserController:52 - ZaloPayUserController.processs, data: {"phone_number":"0935954858"}
+2018-01-09 16:02:19  INFO ZaloPayUserController:50 - ZaloPayUserController.processs, pathInfo: /
+2018-01-09 16:02:19  INFO ZaloPayUserController:51 - ZaloPayUserController.processs, cmd: getzalopayuserinfobyzpid
+2018-01-09 16:02:19  INFO ZaloPayUserController:52 - ZaloPayUserController.processs, data: {"zpid":"hainh"}
+2018-01-09 16:02:25  INFO ZaloPayUserController:50 - ZaloPayUserController.processs, pathInfo: /
+2018-01-09 16:02:25  INFO ZaloPayUserController:51 - ZaloPayUserController.processs, cmd: getzalopayuserinfobyzpid
+2018-01-09 16:02:25  INFO ZaloPayUserController:52 - ZaloPayUserController.processs, data: {"zpid":"haint"}
+2018-01-09 16:07:48  INFO ServiceDaemon:30 - Shutdown thread before webserver getinstance
+2018-01-09 16:07:48  INFO AbstractConnector:320 - Stopped ServerConnector@11784af6{HTTP/1.1,[http/1.1]}{0.0.0.0:8181}
+2018-01-09 16:07:48  INFO ContextHandler:932 - Stopped o.e.j.s.ServletContextHandler@aec23a8{/,null,UNAVAILABLE}
