@@ -75,15 +75,16 @@ public class CashInController extends HttpServlet {
                 String zpid = jsonObject.get("zpid").getAsString();
                 String amount = jsonObject.get("amount").getAsString();
                 String transfer_type = jsonObject.get("transfer_type").getAsString();
-                String client_id = jsonObject.get("client_id").getAsString();
-                if (zpid.isEmpty() || amount.isEmpty() || transfer_type.isEmpty() || client_id.isEmpty()) {
+                String machine_name = jsonObject.get("machine_name").getAsString();
+                if (zpid.isEmpty() || amount.isEmpty() || transfer_type.isEmpty() || machine_name.isEmpty()) {
                     content = CommonModel.FormatResponse(ret, "Invalid parameter");
                 } else {
                     Invoice invoice = new Invoice();
                     InvoiceModel.getInstance().generateInvoiceCode(invoice);
                     invoice.setAmount(amount);
-                    invoice.setClient_id(client_id);
+                    invoice.setMachine_name(machine_name);
                     invoice.setTransfer_type(transfer_type);
+                    invoice.setReciever(zpid);
                     InvoiceModel.getInstance().insertInvoice(invoice);
                     content = CashInModel.getInstance().transferCash(zpid, amount, transfer_type, invoice.getInvoice_code());
                 }
@@ -106,15 +107,16 @@ public class CashInController extends HttpServlet {
                 String phone_number = jsonObject.get("phone_number").getAsString();
                 String amount = jsonObject.get("amount").getAsString();
                 String transfer_type = jsonObject.get("transfer_type").getAsString();
-                String client_id = jsonObject.get("client_id").getAsString();
-                if (phone_number.isEmpty() || amount.isEmpty() || transfer_type.isEmpty() || client_id.isEmpty()) {
+                String machine_name = jsonObject.get("machine_name").getAsString();
+                if (phone_number.isEmpty() || amount.isEmpty() || transfer_type.isEmpty() || machine_name.isEmpty()) {
                     content = CommonModel.FormatResponse(ret, "Invalid parameter");
                 } else {
                     Invoice invoice = new Invoice();
                     InvoiceModel.getInstance().generateInvoiceCode(invoice);
                     invoice.setAmount(amount);
-                    invoice.setClient_id(client_id);
+                    invoice.setMachine_name(machine_name);
                     invoice.setTransfer_type(transfer_type);
+                    invoice.setReciever(phone_number);
                     InvoiceModel.getInstance().insertInvoice(invoice);
                     content = CashInModel.getInstance().transferCashByType(phone_number, amount, transfer_type, invoice.getInvoice_code());
                 }

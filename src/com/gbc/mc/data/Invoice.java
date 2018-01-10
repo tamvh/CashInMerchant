@@ -14,8 +14,34 @@ public class Invoice {
     private long invoice_index;
     private String amount;
     private String transfer_type;
-    private String client_id;
+    private String machine_name;
     private String date_order;
+    private String reciever;
+    private String zptransid;
+
+    public String getZptransid() {
+        return zptransid;
+    }
+
+    public void setZptransid(String zptransid) {
+        this.zptransid = zptransid;
+    }
+    
+    public String getReciever() {
+        return reciever;
+    }
+
+    public void setReciever(String reciever) {
+        this.reciever = reciever;
+    }
+
+    public String getMachine_name() {
+        return machine_name;
+    }
+
+    public void setMachine_name(String machine_name) {
+        this.machine_name = machine_name;
+    }
 
     public String getInvoice_code() {
         return invoice_code;
@@ -47,14 +73,6 @@ public class Invoice {
 
     public void setTransfer_type(String transfer_type) {
         this.transfer_type = transfer_type;
-    }
-
-    public String getClient_id() {
-        return client_id;
-    }
-
-    public void setClient_id(String client_id) {
-        this.client_id = client_id;
     }
 
     public String getDate_order() {

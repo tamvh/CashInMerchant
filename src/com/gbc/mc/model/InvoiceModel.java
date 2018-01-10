@@ -48,7 +48,7 @@ public class InvoiceModel {
     }
     
     public long getLastInvoiceIndex(String curr_date) {
-        long lastInvoiceIndex = -1;
+        long lastInvoiceIndex = 0;
         Connection connection = null;
         Statement stmt = null;
         ResultSet rs = null;
@@ -67,7 +67,7 @@ public class InvoiceModel {
             if (rs != null) {
                 if (rs.next()) {
                     lastInvoiceIndex = rs.getLong("invoice_index");
-                } 
+                }
             }
         } catch (SQLException ex) {
             java.util.logging.Logger.getLogger(InvoiceModel.class.getName()).log(Level.SEVERE, null, ex);
@@ -90,8 +90,8 @@ public class InvoiceModel {
             String tableName = "tb_invoice";
             connection = MySqlFactory.getConnection();
             stmt = connection.createStatement();
-            queryStr = String.format("INSERT INTO %1$s (invoice_code, invoice_index, amount, transfer_type, client_id, date_order) VALUES ('%2$s', %3$d, '%4$s', '%5$s', '%6$s', '%7$s')",
-                    tableName, invoice.getInvoice_code(), invoice.getInvoice_index(), invoice.getAmount(), invoice.getTransfer_type(), invoice.getClient_id(), invoice.getDate_order());
+            queryStr = String.format("INSERT INTO %1$s (invoice_code, invoice_index, amount, reciever, transfer_type, machine_name, date_order) VALUES ('%2$s', %3$d, '%4$s', '%5$s', '%6$s', '%7$s', '%8$s')",
+                    tableName, invoice.getInvoice_code(), invoice.getInvoice_index(), invoice.getAmount(), invoice.getReciever(), invoice.getTransfer_type(), invoice.getMachine_name(), invoice.getDate_order());
             System.out.println("Query insertInvoice: " + queryStr);
             int result = stmt.executeUpdate(queryStr);
             if(result > 0) {
